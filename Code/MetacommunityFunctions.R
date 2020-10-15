@@ -14,7 +14,7 @@ Clean1 <- function(csv){
   library(plyr)
   
   #import 2013 data
-  RawData <- read.csv(paste0("RawData/", csv), header = FALSE)
+  RawData <- read.csv(paste0("Private-MetacommunityData/RawData/", csv), header = FALSE)
 
   #isolate date of ER sampeling
   SemiRawData <- RawData[-c(1, 2),-c(1, 4, 5, 6, 7, 8)] # delete extra columns and headers
@@ -27,7 +27,7 @@ Clean1 <- function(csv){
   CleanData$Group.1 <- mdy(CleanData$Group.1) # make sure dates are in month-day-year form
   CleanData <- arrange(CleanData, Group.1) # put data into chronological order
   name <- paste0(str_sub(csv, start = 1L, end = 12L), "Clean.csv")
-  write.csv(CleanData, file = paste0("CleanData/",name))
+  write.csv(CleanData, file = paste0("Private-MetacommunityData/CleanData/",name))
   return(View(CleanData))
   
 }
