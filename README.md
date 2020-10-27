@@ -11,20 +11,25 @@ The goal of this project is to examine aquatic insect metacommunities in three d
 	1. Ash Canyon (sites = 4)
 
 ![ ](/Images/WhiteSands.png)
+{: height="36px" width="36px"}
 2. The Sonoran Desert: For Huachuca, AZ
 	1. Huachuca Canyon (sites = 7)
 	1. Garden Canyon (sites = 7)
 
 ![ ](Images/FortHuachuca.png)
+{: height="36px" width="36px"}
 3. The Mojave Desert: China Lake, CA
 	1. Water Canyon (sites = 4)
 	1. Great Falls Basin (sites = 4)
 
 ![ ](Images/ChinaLake.png)
+{: height="36px" width="36px"}
 
 ## Study Area
 ![ ](Images/StudyArea.png)
+{: height="36px" width="36px"}
 ![ ](Images/Legend.png)
+{: height="36px" width="36px"}
 
 All code for this project is public. 
 
