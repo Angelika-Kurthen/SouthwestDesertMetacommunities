@@ -21,15 +21,11 @@ The goal of this project is to examine aquatic insect metacommunities in three d
 
 
 ## Study Area
-<br />
-<p align="center">
-<a href="https://github.com/SouthwestDesertMetacommunities
-<img src="SouthwestDesertMetacommunities/Images/StudyArea.png" alt="Study Area" width="50" height="50">
-  </a>
+![Study Area](/Images/StudyArea.png)
 
 All code for this project is public. 
 
-### Data included in the Privat-MetacommunityData repository
+### Data included in the Private-MetacommunityData repository
 * Electrical Resistance sensor data
 * Aquatic Insect community data
 
