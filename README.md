@@ -23,7 +23,7 @@ The goal of this project is to examine aquatic insect metacommunities in three d
 ## Study Area
 <br />
 <p align="center">
-<a href="https://github.com/SouthwestDesertMetacommunities%22%3E
+<a href="https://github.com/SouthwestDesertMetacommunities>
 <img src="Images/StudyArea.png" alt="Study Area" width="100" height="100">
   </a>
 
