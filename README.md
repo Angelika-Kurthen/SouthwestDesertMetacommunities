@@ -7,36 +7,25 @@
 The goal of this project is to examine aquatic insect metacommunities in three deserts:
 
 1. The Chihuahuan Desert: White Sands, NM
-	1.San Andres Canyon (sites = 2)
-	1. Ash Canyon (sites = 4)
-
-
-![ ](/Images/WhiteSands.png){ width=50% }
-
+	1.San Andres Canyon 
+	1. Ash Canyon 
 
 
 2. The Sonoran Desert: For Huachuca, AZ
-	1. Huachuca Canyon (sites = 7)
-	1. Garden Canyon (sites = 7)
-
-
-![ ](Images/FortHuachuca.png){ width=50% }
-
-
+	1. Huachuca Canyon 
+	1. Garden Canyon 
 
 3. The Mojave Desert: China Lake, CA
-	1. Water Canyon (sites = 4)
-	1. Great Falls Basin (sites = 4)
-
-
-![ ](Images/ChinaLake.png){ width=50% }
+	1. Water Canyon 
+	1. Great Falls Basin 
 
 
 ## Study Area
-![ ](Images/StudyArea.png)
-{: height="36px" width="36px"}
-![ ](Images/Legend.png)
-{: height="36px" width="36px"}
+br />
+p align="center">
+a href="https://github.com/SouthwestDesertMetacommunities%22%3E
+img src="Images/StudyArea.png" alt="Study Area" width="100" height="100">
+  </a>
 
 All code for this project is public. 
 
