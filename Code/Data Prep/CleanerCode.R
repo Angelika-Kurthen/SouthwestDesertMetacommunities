@@ -44,6 +44,8 @@ Clean1(csv = "35_ASH_MID_8Apr14.csv") #ASH2 2014
 Clean1(csv = "51_ASH_UAL_8Apr14.csv") #ASH3 2014
 Clean1(csv = "69_AshUpper_8Apr14.csv") #ASH4 2014
 
+
 #2014 WAT data
 Clean1(csv = "12Wat_SFBP1Apr14.csv") #WAT1 2014
-Clean (csv = )
+Clean1(csv = "16WAT1Apr2014.csv") #WAT2 2014
+Clean1(csv = "17WATSFAC_1Apr2014.csv") #WAT3 2014
