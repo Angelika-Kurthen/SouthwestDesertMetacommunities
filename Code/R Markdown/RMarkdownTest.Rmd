@@ -1,0 +1,52 @@
+---
+title: "TestMarkdown"
+author: "Angelika Kurthen"
+date: "10/27/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown Test
+
+This is my test using R Markdown. 
+
+In this test I will be making a graph of some ER sensor data. 
+
+```{r }
+# For this section, I will be printing a table of what the data looks like
+Ash2Clean2013 <- read.csv("Private-MetacommunityData/CleanData/Ash2Clean2013.csv")
+Ash2Clean2013 <- as.data.frame(Ash2Clean2013)
+colnames(Ash2Clean2013) <- c("X", "Date", "Value")
+Ash2Clean2013$Date <- as.Date(Ash2Clean2013$Date)
+head(Ash1Clean2013)
+
+
+```
+
+*I wonder what would happen if we imbedded some code to create a mini-table?*
+
+## Example Table
+
+Date | Sensor Value
+-------------| -------------
+'r Ash2Clean2013[1,2]' | 'r Ash2Clean2013[1,3]'
+'r Ash2Clean2013[2,2]' | 'r Ash2Clean2013[2,3]'
+... | ... 
+
+## Including Plots
+
+You can also embed plots, for example:
+
+### 2013 Ash2 Sensor Data
+
+```{r pressure, echo=FALSE}
+library(ggplot2)
+ggplot(data = Ash2Clean2013, mapping = aes(x = Date, y = Value))+
+  geom_path(mapping = aes(x = Date, y = Value))
+  
+```
+
+
