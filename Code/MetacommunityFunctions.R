@@ -6,17 +6,16 @@
 # cleaner function one is used to clean and sort G1_April2013.csv, G2_April2013.csv...
 # requires tidyverse
 
-csv <- "G1_April2013.csv"
-Clean1(csv)
+
 Clean1 <- function(csv){
   library (stringr)
   library(lubridate)
   library(plyr)
   
-  #import 2013 data
+  #import data
   RawData <- read.csv(paste0("Private-MetacommunityData/RawData/", csv), header = FALSE)
 
-  #isolate date of ER sampeling
+  #isolate date of ER sampleing
   SemiRawData <- RawData[-c(1, 2),-c(1, 4, 5, 6, 7, 8)] # delete extra columns and headers
   SemiRawData$V2 <- str_sub(SemiRawData$V2, start = 1L, end = 8L) # remove time from date and time column
   
@@ -31,5 +30,3 @@ Clean1 <- function(csv){
   return(View(CleanData))
   
 }
-
-
