@@ -25,6 +25,9 @@ The goal of this project is to examine aquatic insect metacommunities in three d
 
 All code for this project is public. 
 
+## Update as of 11/2/2020:
+Currently there is only code for cleaning raw electrical resistance sensor data. 
+
 ### Data included in the Private-MetacommunityData repository
 * Electrical Resistance sensor data
 * Aquatic Insect community data
