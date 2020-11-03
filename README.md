@@ -32,3 +32,4 @@ Currently there is only code for cleaning raw electrical resistance sensor data.
 * Electrical Resistance sensor data
 * Aquatic Insect community data
 
+Private-MetacommunityData will become public upon completion and publishing of project. 
