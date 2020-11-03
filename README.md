@@ -7,7 +7,7 @@
 The goal of this project is to examine aquatic insect metacommunities in three deserts:
 
 1. The Chihuahuan Desert: White Sands, NM
-	1.San Andres Canyon 
+	1. San Andres Canyon 
 	1. Ash Canyon 
 
 
