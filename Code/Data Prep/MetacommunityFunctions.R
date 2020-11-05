@@ -30,3 +30,42 @@ Clean1 <- function(csv){
   return(View(CleanData))
   
 }
+
+basin = `Ash Canyon2013Fall`
+genus = "Peltodytes"
+species1 = "Peltodytes dispersus"
+species2 = 0
+GenusSpecies(basin, genus, species1, species2)
+GenusSpecies <- function(basin, genus, species1, species2){
+  if (species2 == 0){
+    
+    x <- sum(basin[which(basin$Taxa == genus),]$Count)
+    y <- basin[which(basin$Taxa == species1),]$Count
+    wt <- basin[which(basin$Taxa == species1),]$Count/
+      sum(basin[which(basin$Taxa == species1),]$Count)
+    wtx <- x * wt
+    wtx <- wtx + y
+    basin[which(basin$Taxa == species1),]$Count = c(wtx)
+    basin[which(basin$Taxa == genus),]$Count = NA
+    print("no species 2")
+  }
+  
+  
+  if (species2 != 0){
+    x <- basin[which(basin$Taxa == genus),]$Count
+    y <- basin[which(basin$Taxa == species1,),]$Count
+    z <- basin[which(basin$Taxa == species2,),]$Count
+    sum <- sum(y) + sum(z)
+    wty <- y/sum
+    wty <- sum(x) * wty 
+    wtz <- z/sum
+    wtz <- sum(x) * wtz
+    wty <- wty + y
+    wtz <- wtz + z
+    basin[which(basin$Taxa == species1,),]$Count = c(wty)
+    basin[which(basin$Taxa == species2,),]$Count = c(wtz)
+    basin[which(basin$Taxa == genus),]$Count = NA
+    print("species2 present")
+  }
+}
+
