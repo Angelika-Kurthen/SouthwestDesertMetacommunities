@@ -2,7 +2,11 @@
 # Raw Data Cleaning
 #########################
 # source functions to clean data
-source('~/SouthwestDesertMetacommunities/Code/MetacommunityFunctions.R')
+source('Code/Data Prep/MetacommunityFunctions.R')
+
+#make into for loop 
+#pull paste0 outside clean1 function
+
 # Fort Huachuca Data
 # 2013 Data from Garden and Huachuca Canyon
 Clean1(csv = "G1_April2013.csv")
