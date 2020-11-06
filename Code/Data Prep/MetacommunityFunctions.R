@@ -6,36 +6,30 @@
 # cleaner function one is used to clean and sort G1_April2013.csv, G2_April2013.csv...
 # requires tidyverse
 
-
-Clean1 <- function(csv){
-  library (stringr)
-  library(lubridate)
-  library(plyr)
+#what folder as second argument
+PrepAndCleanHoboCSV <- function(csv, csvpath){
+  
+  require(stringr)
+  require(lubridate)
+  require(plyr)
   
   #import data
-  RawData <- read.csv(paste0("Private-MetacommunityData/RawData/", csv), header = FALSE)
+  RawData <- read.csv(csvpath, header = FALSE) #full path
 
   #isolate date of ER sampleing
   SemiRawData <- RawData[-c(1, 2),-c(1, 4, 5, 6, 7, 8)] # delete extra columns and headers
   SemiRawData$V2 <- str_sub(SemiRawData$V2, start = 1L, end = 8L) # remove time from date and time column
-  
   
   #get daily means and sort by date
   SemiRawData$V3 <- as.numeric(as.character(SemiRawData$V3)) # convert sensor data to numeric 
   CleanData <- aggregate(SemiRawData[, 2], list(SemiRawData$V2), mean) # aggregate by date and calculate daily means
   CleanData$Group.1 <- mdy(CleanData$Group.1) # make sure dates are in month-day-year form
   CleanData <- arrange(CleanData, Group.1) # put data into chronological order
-  name <- paste0(str_sub(csv, start = 1L, end = 12L), "Clean.csv")
+  name <- paste0("Clean", csv)
   write.csv(CleanData, file = paste0("Private-MetacommunityData/CleanData/",name))
-  return(View(CleanData))
-  
 }
 
-basin = `Ash Canyon2013Fall`
-genus = "Peltodytes"
-species1 = "Peltodytes dispersus"
-species2 = 0
-GenusSpecies(basin, genus, species1, species2)
+
 GenusSpecies <- function(basin, genus, species1, species2){
   if (species2 == 0){
     
