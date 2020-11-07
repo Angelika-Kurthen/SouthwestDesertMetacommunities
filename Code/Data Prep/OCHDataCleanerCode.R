@@ -137,6 +137,9 @@ MetacommunityDrainages$Taxa <-
        "",
        as.character(MetacommunityDrainages$Taxa))
 
+#need to isolate subsamples
+Subsamples <- levels(factor((MetacommunityDrainages$`Sample ID`)))
+
 #resolve ambiguous data at subsample level
 #family to genus level
 newdata <- data.frame()
