@@ -68,3 +68,32 @@ GenusSpecies <- function(basin, genus, species1, species2) {
   }
 }
 
+ERSensorHydrology <- function(path, pattern) {  # need to enter file path and type of document 
+  file.names <- dir(path, pattern)              # get a list of file names in the folder
+  for (i in 1:length(file.names)) {             # cycle through file names in folder
+    file <-                                     # isolate each file name               
+      read.table(
+        paste0(path, "/", file.names[i]),
+        header = TRUE,
+        sep = ",",
+        stringsAsFactors = FALSE
+      )
+    hydro <- vector()                          # create empty vector
+    for (j in 1:length(file[, 3])) {           # cycle through resistance values 
+      if (is.na(file[j, 3])) {                 # if NA, keep it NA
+        hydro[j] <- NA
+      } else {                                 # we are using the electircal resistance value of -120 as out 'wet' threshold
+        if (file[j, 3] > -120) {               # this was value used in Constantz et al. 2001
+          hydro[j] <- "Wet"                    # if value above -120, stream bed is wet
+        }
+        
+        if (file[j, 3] <= -120) {              # if value below -120, stream bed is dry
+          hydro[j] <- "Dry"
+        }
+      }
+    }
+    bound <- cbind(file, hydro)                # append hydology list to ER sensor data
+    write.csv(bound, file = paste0(path, "/", file.names[i]))  # export as csv in CleanER
+  }
+  
+}
