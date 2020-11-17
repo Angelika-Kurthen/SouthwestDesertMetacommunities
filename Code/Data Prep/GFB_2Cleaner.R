@@ -13,4 +13,4 @@ GFB_2Clean <- GFB_2[, c(2, 3, 4)]
 # save file 
 write.csv(GFB_2Clean, 
           file = 
-            paste0("Private-MetacommunityData/CleanData/","GFB_2Clean.csv"))
+            paste0("Private-MetacommunityData/CleanERData/","GFB_2Clean.csv"))
