@@ -32,4 +32,4 @@ San1Clean[1] <- dates
 #save file
 write.csv(San1Clean, 
           file = 
-            paste0("Private-MetacommunityData/CleanData/","San1Clean2013.csv"))
+            paste0("Private-MetacommunityData/CleanERData/","San1Clean2013.csv"))

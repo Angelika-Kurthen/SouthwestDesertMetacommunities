@@ -11,4 +11,4 @@ San2Clean <- San2[ , c(5,6)]
 #save file
 write.csv(San2Clean, 
           file = 
-            paste0("Private-MetacommunityData/CleanData/","San2Clean2013.csv"))
+            paste0("Private-MetacommunityData/CleanERData/","San2Clean2013.csv"))
