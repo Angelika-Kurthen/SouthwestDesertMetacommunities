@@ -13,7 +13,7 @@ PrepAndCleanHoboCSV <- function(csv, csvpath) {
   require(plyr)
   
   #import data
-  RawData <- read.csv(csvpath, header = FALSE) #full path
+  RawData <- read.csv(csvpath, header = F) #full path
   
   #isolate date of ER sampleing
   SemiRawData <-
@@ -32,7 +32,7 @@ PrepAndCleanHoboCSV <- function(csv, csvpath) {
     arrange(CleanData, Group.1) # put data into chronological order
   name <- paste0("Clean", csv)
   write.csv(CleanData,
-            file = paste0("Private-MetacommunityData/CleanData/", name))
+            file = paste0("Private-MetacommunityData/CleanERData/", name))
 }
 
 
