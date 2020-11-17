@@ -12,4 +12,4 @@ Wat4Clean <- Wat4[ ,c(2,12,13)]
 #save file
 write.csv(Wat4Clean, 
           file = 
-            paste0("Private-MetacommunityData/CleanData/","Wat4Clean2013.csv"))
+            paste0("Private-MetacommunityData/CleanERData/","Wat4Clean2013.csv"))

@@ -13,4 +13,4 @@ Wat3Clean <- Wat3[ ,c(2,9, 10)]
 #save file
 write.csv(Wat3Clean, 
           file = 
-            paste0("Private-MetacommunityData/CleanData/","Wat3Clean2013.csv"))
+            paste0("Private-MetacommunityData/CleanERData/","Wat3Clean2013.csv"))
