@@ -68,8 +68,8 @@ GenusSpecies <- function(basin, genus, species1, species2) {
   }
 }
 
-ERSensorHydrology <- function(path, pattern) {  # need to enter file path and type of document 
-  file.names <- dir(path, pattern)              # get a list of file names in the folder
+ERSensorHydrology <- function(path) {  # need to enter file path 
+  file.names <- dir(path)              # get a list of file names in the folder
   for (i in 1:length(file.names)) {             # cycle through file names in folder
     file <-                                     # isolate each file name               
       read.table(
@@ -95,5 +95,4 @@ ERSensorHydrology <- function(path, pattern) {  # need to enter file path and ty
     bound <- cbind(file, hydro)                # append hydology list to ER sensor data
     write.csv(bound, file = paste0(path, "/", file.names[i]))  # export as csv in CleanER
   }
-  
 }
