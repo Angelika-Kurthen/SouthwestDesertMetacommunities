@@ -49,9 +49,9 @@ csvs <-
   )
 
 # add on full file name path so we can run through function
-csvpath <- paste0("Private-MetacommunityData/RawData/", csvs)
+csvpaths <- paste0("Private-MetacommunityData/RawData/", csvs)
 
 # loop through
 for (i in 1:length(csvs)) {
-  PrepAndCleanHoboCSV(csv = csvs[i], csvpath = csvpath[i])
+  PrepAndCleanHoboCSV(csv = csvs[i], csvpath = csvpaths[i])
 }
