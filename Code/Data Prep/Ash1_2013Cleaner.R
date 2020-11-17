@@ -11,4 +11,4 @@ Ash1Clean <- Ash1[, c(9,10)]
 #save file
 write.csv(Ash1Clean, 
           file = 
-            paste0("Private-MetacommunityData/CleanData/","Ash1Clean2013.csv"))
+            paste0("Private-MetacommunityData/CleanERData/","Ash1Clean2013.csv"))

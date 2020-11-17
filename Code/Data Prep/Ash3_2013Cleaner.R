@@ -12,4 +12,4 @@ Ash3Clean <- Ash3[, c(1,2)]
 #save file
 write.csv(Ash3Clean, 
           file = 
-            paste0("Private-MetacommunityData/CleanData/","Ash3Clean2013.csv"))
+            paste0("Private-MetacommunityData/CleanERData/","Ash3Clean2013.csv"))
