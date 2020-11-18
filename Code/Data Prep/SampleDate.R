@@ -8,7 +8,7 @@ require(lubridate)
 #read in pre-sorted OCH data
 OCHData <-
   read.table(
-    "Private-MetacommunityData/CleanData/DrainMetacom_Sorted.csv",
+    "Private-MetacommunityData/CleanOCHData/DrainMetacom_Sorted.csv",
     header = T,
     sep = ","
   )

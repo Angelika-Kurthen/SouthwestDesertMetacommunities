@@ -30,7 +30,7 @@ PrepAndCleanHoboCSV <- function(csv, csvpath) {
     mdy(CleanData$Group.1) # make sure dates are in month-day-year form
   CleanData <-
     arrange(CleanData, Group.1) # put data into chronological order
-  name <- paste0("Clean", csv)
+  name <- paste0(str_sub(csv, end = -5 ),"Clean", ".csv")
   write.csv(CleanData,
             file = paste0("Private-MetacommunityData/CleanERData/", name))
 }
