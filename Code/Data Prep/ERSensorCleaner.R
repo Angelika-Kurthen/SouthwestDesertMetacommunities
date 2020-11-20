@@ -45,7 +45,9 @@ csvs <-
     "69_AshUpper_8Apr14.csv",
     "12Wat_SFBP1Apr14.csv",
     "16WAT1Apr2014.csv",
-    "17WATSFAC_1Apr2014.csv"
+    "17WATSFAC_1Apr2014.csv",
+    "G1_2014.csv", 
+    "G3_2014.csv"
   )
 
 # add on full file name path so we can run through function
