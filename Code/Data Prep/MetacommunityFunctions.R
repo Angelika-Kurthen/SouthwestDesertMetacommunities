@@ -96,3 +96,22 @@ ERSensorHydrology <- function(path) {  # need to enter file path
     write.csv(bound, file = paste0(path, "/", file.names[i]))  # export as csv in CleanER
   }
 }
+
+# Lat and Long conversion for China Lake
+
+# data needs to be in this format: data frame with three columns in order: "Zone", Northing","Easting", "Sensor"
+UTMtoLatLon <- function(data, zone, output_name){
+
+  data$Northing <-as.numeric(as.character(data$Northing))  # need to make sure Northing and Easting are of class numeric
+  data$Easting <- as.numeric(as.character(data$Easting))
+  
+  proj4string <- paste0("+proj=utm +zone=", zone, " +ellps=WGS84 +datum=WGS84 +units=m +no_defs ") # string with coordinate reference system
+  pj <- project(data[ ,c(2,3)], proj4string, inverse=TRUE) # create projection object
+  latlon <- data.frame(lat=pj$y, lon=pj$x, data$Sensor)
+  
+  name <- paste0("LatLongZone", zone)
+  
+  assign(name, latlon)
+}
+
+
