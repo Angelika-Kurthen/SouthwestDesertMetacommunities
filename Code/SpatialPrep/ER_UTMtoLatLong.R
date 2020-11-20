@@ -44,3 +44,7 @@ ER_UTM_FH <- as.data.frame(cbind(zones, SensorLocations_FH$Easting, SensorLocati
 colnames(ER_UTM_FH) <- c("Zone", "Northing", "Easting", "Sensor")
 
 ER_LatLong_FH <- UTMtoLatLon(data = ER_UTM_FH, zone = 12)
+
+# combine all of these into a big dataframe
+
+ER_LatLong <- rbind(ER_LatLon_WS, ER_LatLon_CL, ER_LatLong_FH)
