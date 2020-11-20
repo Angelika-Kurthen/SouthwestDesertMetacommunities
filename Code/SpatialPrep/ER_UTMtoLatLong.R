@@ -28,16 +28,19 @@ colnames(ER_UTM_WS_CL) <- c("Zone", "Northing", "Easting", "Sensor")         # c
 # Solution: subset data frame and change lat-long 
 
 ER_UTM_CL <- as.data.frame(subset(ER_UTM_WS_CL[which(ER_UTM_WS_CL$Zone == "11S"), ])) # China Lake Sensors
+
+ER_LatLon_CL <- UTMtoLatLon(data = ER_UTM_CL, zone = 11) # use UTMtoLatLong to convert UTMs 
+
 ER_UTM_WS <- subset(ER_UTM_WS_CL[which(ER_UTM_WS_CL$Zone == "13S"), ]) # White Sands Sensors
 
-# Lat and Long conversion for China Lake
-ER_UTM_CL$Northing <- as.numeric(as.character(ER_UTM_CL$Northing))
-ER_UTM_CL$Easting <- as.numeric(as.character(ER_UTM_CL$Easting))
-sputm <- SpatialPoints(ER_UTM_CL[ ,c(2,3)], proj4string=CRS("+proj=utm +zone=11 +datum=WGS84"))  
-spgeo <- spTransform(sputm, CRS("+proj=longlat +datum=WGS84"))
-utm2 <- spTransform(sputm,CRS("+proj=longlat +datum=WGS84"))
+ER_LatLon_WS <- UTMtoLatLon(data = ER_UTM_WS, zone = 13)  # use UTMtoLatLong to convert UTMs 
 
-proj4string <- "+proj=utm +zone=11 +ellps=WGS84 +datum=WGS84 +units=m +no_defs "
-pj <- project(ER_UTM_CL[ ,c(2,3)], proj4string, inverse=TRUE)
-latlon <- data.frame(lat=pj$y, lon=pj$x)
-print(latlon)
+# now we need to read in our huachuca canyon and garden canyon info
+
+SensorLocations_FH <- read_excel("Private-MetacommunityData/RawData/SensorLocationDescriptionUTMs.xlsx")
+
+zones <- rep(12, times = 15)
+ER_UTM_FH <- as.data.frame(cbind(zones, SensorLocations_FH$Easting, SensorLocations_FH$Northing, SensorLocations_FH$ID...2))  # Think the northing and easting was confused in the excel file so sorted that out
+colnames(ER_UTM_FH) <- c("Zone", "Northing", "Easting", "Sensor")
+
+ER_LatLong_FH <- UTMtoLatLon(data = ER_UTM_FH, zone = 12)
