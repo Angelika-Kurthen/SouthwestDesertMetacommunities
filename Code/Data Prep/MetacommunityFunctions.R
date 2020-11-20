@@ -108,10 +108,7 @@ UTMtoLatLon <- function(data, zone, output_name){
   proj4string <- paste0("+proj=utm +zone=", zone, " +ellps=WGS84 +datum=WGS84 +units=m +no_defs ") # string with coordinate reference system
   pj <- project(data[ ,c(2,3)], proj4string, inverse=TRUE) # create projection object
   latlon <- data.frame(lat=pj$y, lon=pj$x, data$Sensor)
-  
-  name <- paste0("LatLongZone", zone)
-  
-  assign(name, latlon)
+  return(latlon)
 }
 
 
