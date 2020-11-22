@@ -65,6 +65,15 @@ for (i in levels(factor(OCHData$Site))) {  # cycle through the sites in OCHData
     }
   }
 }
+
+# we know that we don't have sensor data for spring 2012 samples, so remove 
+for (i in 1:length(datetable$State)) {  # cycle through the sites in OCHData
+  for (j in c("Spring", "Fall")) {         # cycle through the seasons
+    for (k in c(2012, 2013)) { 
+      if (datetable$Season[i] == "Spring" & substr(datetable$`DAY/MONTH/YEAR`[i], 1, 4) == "2012"){
+        datetable <- datetable[-i,]  }}}}
+
+
 # now I want to find the unique earliest sample dates for each of the sites
 UniqueDateTable <-  # want to create an empty data frame for our data
   data.frame(
@@ -108,3 +117,16 @@ for (i in length(SampleDates$PrevMonth)) { # cucle through rows
   }
 }
 
+# ok now we need to cross reference the dates sampled with the sensor dates
+
+# read in all the sensor dates and info
+sensor_info <- as.data.frame(read.table("Private-MetacommunityData/RawData/ER_Sensor_Years.txt", header = T, sep = ","))
+
+# convert all the start and end dates to date class
+sensor_info$StartDate2013<- mdy(sensor_info$StartDate2013)
+sensor_info$EndDate2013 <- mdy(sensor_info$EndDate2013)
+sensor_info$StartDate2014 <- mdy(sensor_info$StartDate2014)
+sensor_info$StartDate2014.1 <- mdy(sensor_info$StartDate2014.1)
+
+
+interval(start = SampleDates$`DAY/MONTH/YEAR`[2], end = SampleDates$PrevMonth[2]) %within% interval(start = sensor_info$StartDate2013[1], end = sensor_info$EndDate2013[1]) 
