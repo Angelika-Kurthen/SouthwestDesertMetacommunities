@@ -15,7 +15,8 @@ library(proj4)
 
 # ER sensor locations in UTM for New Mexico and California (White Sands and Chine Lake)
 ER_Sensor_locations <- read_excel("Private-MetacommunityData/RawData/ER_Sensor_locationinfo_WS_CLNWS (1).xlsx")
-
+ER_Sensor_locations$`sensor name/placement in canyon`[9] <- "ASH1"
+ER_Sensor_locations$`sensor name/placement in canyon`[10] <- "ASH2"
 # need to split up the GPS waypoint UTM column by spaces 
 ER_Northing_Easting <- strsplit(ER_Sensor_locations$`GPS waypoint UTM`, " ") # use strsplit() to split by space
 mat  <- matrix(unlist(ER_Northing_Easting), ncol=3, byrow=TRUE)              # unlist and convert to matrix
