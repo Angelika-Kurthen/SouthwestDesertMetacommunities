@@ -111,4 +111,21 @@ UTMtoLatLon <- function(data, zone, output_name){
   return(latlon)
 }
 
+MinDistList <-
+  function(data) {
+    # function to return a distance matrix between ER sensors and OCH sample sites
+    minlist <-
+      apply(data, 2, FUN = min) # pulls minimum values for each column (OCH site)
+    ER_vector <-
+      vector()                # empty vector to put ER sensor names into
+    for (i in 1:length(minlist)) {
+      # cycle through minimum values
+      a <-
+        rownames(data)[which(data[, i] == minlist[i])] # pull rownames of minimum value (ER sensor name)
+      ER_vector <- c(ER_vector, a)       # append to vector
+    }
+    OCH_names <- colnames(data)          # get OCH site names
+    ER_OCH_match <- cbind(ER_vector, OCH_names) # combine into dataframe with match between OCH site and ER sensor
+    return(ER_OCH_match)
+  }
 
