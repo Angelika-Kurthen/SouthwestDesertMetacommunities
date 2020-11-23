@@ -129,3 +129,30 @@ MinDistList <-
     return(ER_OCH_match)
   }
 
+# function to check to make sure the bug relevant samples dates are ok
+DateStatus <- function(ER_Name, OCH_Name, season, year) { 
+  row <- # isolate row with the OCH Site Name
+    which(
+      SampleDates$Site == OCH_Name &
+        SampleDates$Season == season &
+        year == substr(
+          SampleDates$`DAY/MONTH/YEAR`,
+          start = 1,
+          stop = 4
+        )
+    )
+  if (length(row) == 0) { # if the OCH Site/season/year combo doesn't exist, write DNE
+    status <- "DNE"
+  } else { # if OCH Site/season/year combo does exist then check to make sure bug relevant interval is within sample interval
+    ER <- which(Sensor_df$data.Sensor == ER_Name)
+    int <-
+      interval(start = SampleDates$`DAY/MONTH/YEAR`[row],
+               end = SampleDates$PrevMonth[row]) %within% interval(start = Sensor_df$StartDate2013[ER], end = Sensor_df$EndDate2013[ER])
+    if (int == T) { # if bug relevant dates within ER sample, then wite Good
+      status <- "Good"
+    } else { # if not, we need to go an check the dates
+      status <- "CheckDates"
+  }
+  }
+  return(status)
+}
