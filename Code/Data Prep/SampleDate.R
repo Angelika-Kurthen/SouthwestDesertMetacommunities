@@ -117,16 +117,7 @@ for (i in length(SampleDates$PrevMonth)) { # cucle through rows
   }
 }
 
-# ok now we need to cross reference the dates sampled with the sensor dates
-
-# read in all the sensor dates and info
-sensor_info <- as.data.frame(read.table("Private-MetacommunityData/RawData/ER_Sensor_Years.txt", header = T, sep = ","))
-
-# convert all the start and end dates to date class
-sensor_info$StartDate2013<- mdy(sensor_info$StartDate2013)
-sensor_info$EndDate2013 <- mdy(sensor_info$EndDate2013)
-sensor_info$StartDate2014 <- mdy(sensor_info$StartDate2014)
-sensor_info$StartDate2014.1 <- mdy(sensor_info$StartDate2014.1)
 
 
-interval(start = SampleDates$`DAY/MONTH/YEAR`[2], end = SampleDates$PrevMonth[2]) %within% interval(start = sensor_info$StartDate2013[1], end = sensor_info$EndDate2013[1]) 
+
+
