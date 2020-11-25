@@ -173,9 +173,9 @@ ER_OCH_Check <- function(basin, season, year) {
     colnames(mat) <- OCH_lat_lon$Site[6:14]
   }
   if (basin == "Great Falls Basin") {
-    mat <-
-      distm(Sensor_df[c(12:15), c(3, 2)], OCH_lat_lon[c(15:23), c(5, 4)], fun = distVincentyEllipsoid)
-    rownames(mat) <- Sensor_df$data.Sensor[12:15]
+    mat <- # note: GFB4 does not have data from 2012 and 2013
+      distm(Sensor_df[c(12:14), c(3, 2)], OCH_lat_lon[c(15:23), c(5, 4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[12:14]
     colnames(mat) <- OCH_lat_lon$Site[15:23]
   }
   if (basin == "Huachuca Canyon") {
@@ -194,7 +194,7 @@ ER_OCH_Check <- function(basin, season, year) {
     mat <-
       distm(Sensor_df[c(25:28), c(3, 2)], OCH_lat_lon[c(24:33), c(5, 4)], fun = distVincentyEllipsoid)
     rownames(mat) <- Sensor_df$data.Sensor[25:28]
-    colnames(mat) <- OCH_lat_lon[24:33]
+    colnames(mat) <- OCH_lat_lon$Site[24:33]
   }
   df <- as.data.frame(mat)
   OCH_ER_Match <- MinDistList(data = df)
