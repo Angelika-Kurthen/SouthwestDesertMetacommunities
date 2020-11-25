@@ -130,6 +130,7 @@ MinDistList <-
   }
 
 # function to check to make sure the bug relevant samples dates are ok
+
 DateStatus <- function(ER_Name, OCH_Name, season, year) { 
   row <- # isolate row with the OCH Site Name
     which(
@@ -155,4 +156,62 @@ DateStatus <- function(ER_Name, OCH_Name, season, year) {
   }
   }
   return(status)
+}
+
+DistanceMatrices <- function(basin, season, year) {
+  if (basin == "Ash Canyon") {
+    mat <-
+      distm(Sensor_df[c(1:4), c(3, 2)], OCH_lat_lon[c(34:39), c(5, 4)], fun =
+              distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[1:4]
+    colnames(mat) <- OCH_lat_lon$Site[34:39]
+  }
+  if (basin == "Garden Canyon") {
+    mat <-
+      distm(Sensor_df[c(5:11), c(3, 2)], OCH_lat_lon[c(6:14), c(5, 4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[5:11]
+    colnames(mat) <- OCH_lat_lon$Site[6:14]
+  }
+  if (basin == "Great Falls Basin") {
+    mat <-
+      distm(Sensor_df[c(12:15), c(3, 2)], OCH_lat_lon[c(15:23), c(5, 4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[12:15]
+    colnames(mat) <- OCH_lat_lon$Site[15:23]
+  }
+  if (basin == "Huachuca Canyon") {
+    mat <-
+      distm(Sensor_df[c(16:22), c(3, 2)], OCH_lat_lon[c(1:5), c(5, 4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[16:22]
+    colnames(mat) <- OCH_lat_lon$Site[1:5]
+  }
+  if (basin == "San Andres Canyon") {
+    mat <-
+      distm(Sensor_df[c(23:24), c(3, 2)], OCH_lat_lon[c(40:42), c(5, 4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[23:24]
+    colnames(mat) <- OCH_lat_lon$Site[40:42]
+  }
+  if (basin == "Water Canyon") {
+    mat <-
+      distm(Sensor_df[c(25:28), c(3, 2)], OCH_lat_lon[c(24:33), c(5, 4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[25:28]
+    colnames(mat) <- OCH_lat_lon[24:33]
+  }
+  df <- as.data.frame(mat)
+  OCH_ER_Match <- MinDistList(data = df)
+  OCH_ER_Match <- as.data.frame(OCH_ER_Match)
+  OCH_ER_Match$ER_vector <- as.character(OCH_ER_Match$ER_vector)
+  OCH_ER_Match$OCH_names <- as.character(OCH_ER_Match$OCH_names)
+  stat <- vector()
+  for (i in 1:length(OCH_ER_Match$ER_vector)) {
+    b <-
+      DateStatus(
+        ER_Name = OCH_ER_Match$ER_vector[i],
+        OCH_Name = OCH_ER_Match$OCH_names[i],
+        season = season,
+        year = year
+      )
+    stat <- c(stat, b)
+  }
+  c <- cbind(OCH_ER_Match, stat)
+  return(c)
 }
