@@ -158,7 +158,7 @@ DateStatus <- function(ER_Name, OCH_Name, season, year) {
   return(status)
 }
 
-DistanceMatrices <- function(basin, season, year) {
+ER_OCH_Check <- function(basin, season, year) {
   if (basin == "Ash Canyon") {
     mat <-
       distm(Sensor_df[c(1:4), c(3, 2)], OCH_lat_lon[c(34:39), c(5, 4)], fun =
