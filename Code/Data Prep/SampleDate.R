@@ -110,7 +110,7 @@ SampleDates <- cbind(UniqueDateTable, PrevMonth) # appends to the dates calculat
 #some of the samples taken on Oct 31st have NAs (no Sept 31st)
 # we want to calculate based on days (30) instead of months (1)
 
-for (i in length(SampleDates$PrevMonth)) { # cucle through rows
+for (i in 1:length(SampleDates$PrevMonth)) { # cucle through rows
   if (is.na(SampleDates$PrevMonth[i])) {   # get samples that have NAs
     d <- SampleDates$`DAY/MONTH/YEAR`[i] - days(30) # get dates 30 days prior
     SampleDates$PrevMonth[i] <- d          # change in SampleDates
