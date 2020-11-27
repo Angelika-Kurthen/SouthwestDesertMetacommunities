@@ -196,6 +196,12 @@ ER_OCH_Check <- function(basin, season, year) {
     rownames(mat) <- Sensor_df$data.Sensor[25:28]
     colnames(mat) <- OCH_lat_lon$Site[24:33]
   }
+  if (basin == "Water Canyon without WAT1/WAT2"){
+    mat <- 
+      distm(Sensor_df[c(27:28), c(3,2)], OCH_lat_lon[c(24:33), c(5,4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[27:28]
+    colnames(mat) <- OCH_lat_lon$Site[24:33]
+  }
   df <- as.data.frame(mat)
   OCH_ER_Match <- MinDistList(data = df)
   OCH_ER_Match <- as.data.frame(OCH_ER_Match)
@@ -214,4 +220,65 @@ ER_OCH_Check <- function(basin, season, year) {
   }
   c <- cbind(OCH_ER_Match, stat)
   return(c)
+}
+
+
+# Function to 
+ER_OCH_ReadCheckDates <- function(data, season, year){
+  dat <- data[which(data$stat == "CheckDates"),]
+  for (i in 1:length(dat$stat)) {
+    row <- # isolate row with the OCH Site Name
+      which(
+        SampleDates$Site == dat$OCH_names[i] &
+          SampleDates$Season == season &
+          substr(
+            SampleDates$`DAY/MONTH/YEAR`,
+            start = 1,
+            stop = 4
+          ) == year
+      )
+    ER <- which(Sensor_df$data.Sensor == dat$ER_vector[i])
+    if (SampleDates$PrevMonth[row] < sensor_info$StartDate2013[ER]) {
+      print("sample dates start before ER sensors")
+    } else {
+      print("OCH interval")
+      print(interval(
+        start = SampleDates$`DAY/MONTH/YEAR`[row],
+        end = SampleDates$PrevMonth[row]
+      ))
+      print("ER interval 2013")
+      print(interval(
+        start = sensor_info$StartDate2013[ER],
+        end = sensor_info$EndDate2013[ER]
+      ))
+      print("ER interval 2014")
+      print(
+        interval(
+          start = sensor_info$StartDate2014[ER],
+          end = sensor_info$StartDate2014.1[ER]
+        )
+      )
+    }
+  }
+}
+
+BackCalculateSampleDates <- function(data, season, year){
+  dat <- data[which(data$stat == "CheckDates"),]
+  for (i in 1:length(dat$stat)) {
+    row <- # isolate row with the OCH Site Name
+      which(
+        SampleDates$Site == dat$OCH_names[i] &
+          SampleDates$Season == season &
+          substr(
+            SampleDates$`DAY/MONTH/YEAR`,
+            start = 1,
+            stop = 4
+          ) == year
+      )
+    ER <- which(Sensor_df$data.Sensor == dat$ER_vector[i])
+    SampleDates$`DAY/MONTH/YEAR`[row] <- sensor_info$StartDate2013[ER]
+    SampleDates$PrevMonth[row] <-
+      sensor_info$StartDate2013[ER] + days(30)
+    interval(start = SampleDates$`DAY/MONTH/YEAR`[1], end = SampleDates$PrevMonth[1]) %within% interval(start = sensor_info$StartDate2013[1], end = sensor_info$EndDate2013[1]) 
+  }
 }
