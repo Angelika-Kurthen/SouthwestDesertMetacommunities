@@ -5,6 +5,7 @@
 # install necessary libraries
 require(readxl)
 require(lubridate)
+require(geosphere)
 #read in pre-sorted OCH data
 OCHData <-
   read.table(
