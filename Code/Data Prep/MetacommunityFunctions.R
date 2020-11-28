@@ -202,12 +202,32 @@ ER_OCH_Check <- function(basin, season, year) {
     rownames(mat) <- Sensor_df$data.Sensor[27:28]
     colnames(mat) <- OCH_lat_lon$Site[24:33]
   }
+  if (basin == "Garden Canyon with G2 and G3 Only" ){
+    mat <- 
+      distm(Sensor_df[c(5:7), c(3,2)], OCH_lat_lon[c(6:14), c(5,4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[5:7]
+    colnames(mat) <- OCH_lat_lon$Site[6:14]
+  }
+  if (basin == "Huachuca Canyon Fall 2013") {
+    mat <-
+      distm(Sensor_df[c(16, 18:22), c(3, 2)], OCH_lat_lon[c(1:5), c(5, 4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[c(16, 18:22)]
+    colnames(mat) <- OCH_lat_lon$Site[1:5]
+  }
   df <- as.data.frame(mat)
   OCH_ER_Match <- MinDistList(data = df)
   OCH_ER_Match <- as.data.frame(OCH_ER_Match)
   OCH_ER_Match$ER_vector <- as.character(OCH_ER_Match$ER_vector)
   OCH_ER_Match$OCH_names <- as.character(OCH_ER_Match$OCH_names)
   stat <- vector()
+  if (basin == "Garden Canyon with G2 and G3 Only" | basin == "Huachuca Canyon Fall 2013"){ 
+    b <- DateStatusFor2014Data(
+      ER_Name = OCH_ER_Match$ER_vector[i],
+      OCH_Name = OCH_ER_Match$OCH_names[i], 
+      season = season, 
+      year = year)
+    stat <- c(stat, b)
+    } else {
   for (i in 1:length(OCH_ER_Match$ER_vector)) {
     b <-
       DateStatus(
@@ -217,7 +237,7 @@ ER_OCH_Check <- function(basin, season, year) {
         year = year
       )
     stat <- c(stat, b)
-  }
+  }}
   c <- cbind(OCH_ER_Match, stat)
   return(c)
 }
@@ -277,8 +297,34 @@ BackCalculateSampleDates <- function(data, season, year){
       )
     ER <- which(Sensor_df$data.Sensor == dat$ER_vector[i])
     SampleDates$`DAY/MONTH/YEAR`[row] <- sensor_info$StartDate2013[ER]
-    SampleDates$PrevMonth[row] <-
-      sensor_info$StartDate2013[ER] + days(30)
-    interval(start = SampleDates$`DAY/MONTH/YEAR`[1], end = SampleDates$PrevMonth[1]) %within% interval(start = sensor_info$StartDate2013[1], end = sensor_info$EndDate2013[1]) 
+    a <- (sensor_info$StartDate2013[ER] + days(30))
+    SampleDates$PrevMonth[row] <- a
   }
+}
+
+DateStatusFor2014Data <- function(ER_Name, OCH_Name, season, year) { 
+  row <- # isolate row with the OCH Site Name
+    which(
+      SampleDates$Site == OCH_Name &
+        SampleDates$Season == season &
+        year == substr(
+          SampleDates$`DAY/MONTH/YEAR`,
+          start = 1,
+          stop = 4
+        )
+    )
+  if (length(row) == 0) { # if the OCH Site/season/year combo doesn't exist, write DNE
+    status <- "DNE"
+  } else { # if OCH Site/season/year combo does exist then check to make sure bug relevant interval is within sample interval
+    ER <- which(Sensor_df$data.Sensor == ER_Name)
+    int <-
+      interval(start = SampleDates$`DAY/MONTH/YEAR`[row],
+               end = SampleDates$PrevMonth[row]) %within% interval(start = Sensor_df$StartDate2014[ER], end = Sensor_df$StartDate2014.1[ER])
+    if (int == T) { # if bug relevant dates within ER sample, then wite Good
+      status <- "Good"
+    } else { # if not, we need to go an check the dates
+      status <- "CheckDates"
+    }
+  }
+  return(status)
 }
