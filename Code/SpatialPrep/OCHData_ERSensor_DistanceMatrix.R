@@ -11,6 +11,7 @@
 # ok so now we want to basically create a distance matrix between points
 library(lubridate)
 library(geosphere)
+library(stringr)
 
 # ok now we need to cross reference the dates sampled and the matched ER sensors with the sensor dates
 
@@ -29,48 +30,152 @@ sensor_info$StartDate2014.1 <- mdy(sensor_info$StartDate2014.1)
 Sensor_df <- merge(ER_LatLong, sensor_info, by.x = "data.Sensor", by.y = "Sensor")
 Sensor_df$data.Sensor <- as.character(Sensor_df$data.Sensor)
 
-mat <- distm(Sensor_df[c(16:22), c(3,2)], OCH_lat_lon[c(1:5) ,c(5,4)], fun=distVincentyEllipsoid) # cols are OCH sites and rows are ER sensors
-rownames(mat) <- ER_LatLong$data.Sensor[which(Sensor_df$X2012.2013 == 1)]
-colnames(mat) <- OCH_lat_lon$Site
-df <- as.data.frame(mat)
+# Check Ash Canyon Dates
+AC_Fall_2012 <- ER_OCH_Check(basin = "Ash Canyon", season = "Fall", year = "2012")  # Check dates
+AC_Spring_2013 <- ER_OCH_Check(basin = "Ash Canyon", season = "Spring", year = "2013")
+AC_Fall_2013 <- ER_OCH_Check(basin = "Ash Canyon", season = "Fall", year = "2013")
+
+# Check Water Canyon Dates
+WC_Fall_2012 <- ER_OCH_Check(basin = "Water Canyon", season = "Fall", year = "2012") # Check Dates
+WC_Spring_2013 <- ER_OCH_Check(basin = "Water Canyon", season = "Spring", year = "2013") # some Check Dates
+WC_Fall_2013 <- ER_OCH_Check(basin = "Water Canyon", season = "Spring", year = "2013") # some Check Dates
+
+# Check Garden Canyon Dates
+GC_Fall_2012 <- ER_OCH_Check(basin = "Garden Canyon", season = "Fall", year = "2012")
+GC_Spring_2013 <- ER_OCH_Check(basin = "Garden Canyon", season = "Spring", year = "2013") # Check Dates
+GC_Fall_2013 <- ER_OCH_Check(basin = "Garden Canyon", season = "Fall", year = "2013") # Check Dates
+
+# Check Huachuca Canyon Dates
+HC_Fall_2012 <- ER_OCH_Check(basin = "Huachuca Canyon", season = "Fall", year = "2012")
+HC_Spring_2013 <- ER_OCH_Check(basin = "Huachuca Canyon", season = "Spring", year = "2013") # Check Dates
+HC_Fall_2013 <- ER_OCH_Check(basin = "Huachuca Canyon", season = "Fall", year = "2013") # check dates
+
+# Check Great Falls Basin Dates
+GFB_Fall_2012 <- ER_OCH_Check(basin = "Great Falls Basin", season = "Fall", year = "2012") # Check Dates
+GFB_Spring_2013 <- ER_OCH_Check(basin = "Great Falls Basin", season = "Spring", year = "2013")
+GFB_Fall_2013 <- ER_OCH_Check(basin = "Great Falls Basin", season = "Fall", year = "2013")
+
+SAN_Fall_2012 <- ER_OCH_Check(basin = "San Andres Canyon", season = "Fall", year = "2012") # check dates
+SAN_Spring_2013 <- ER_OCH_Check(basin = "San Andres Canyon", season = "Spring", year = "2013")
+SAN_Fall_2013 <- ER_OCH_Check(basin = "San Andres Canyon", season = "Spring", year = "2013")
 
 
-# ok now I want to determine the ER sensor with the minimum 
-minlist <- apply(df, 2, FUN = min) 
-ER_vector <- vector()
-for (i in 1:length(minlist)){
-  a <- rownames(df)[which(df[i] == minlist[i])]
-  ER_vector <- c(ER_vector, a)
+# tried to make a for loop to cycle through all the basin names but it wasn't working?
+# brute force it
+ER_OCH_ReadCheckDates(data = AC_Fall_2012, season = "Fall", year = "2012") # back calculate fall dates
+ER_OCH_ReadCheckDates(data = WC_Fall_2012, season = "Fall", year = "2012") # note: WAT1 and WAT2 start in spring 2013
+ER_OCH_ReadCheckDates(data = WC_Spring_2013, season = "Spring", year = "2013") # note: WAT1 and WAT2 start in spring 2013
+ER_OCH_ReadCheckDates(data = WC_Fall_2013, season = "Fall", year = "2013") # should be fine 
+ER_OCH_ReadCheckDates(data = GC_Spring_2013, season = 'Spring', year = "2013") # basically need to switch end dates of OCH sampleing to end date of ER sample because a lot of 2014 data is missng
+ER_OCH_ReadCheckDates(data = GC_Fall_2013, season = "Fall", year = "2013") # can only use G2 and G3 from 2014, rest of sensors swept away in flash flood
+ER_OCH_ReadCheckDates(data = HC_Spring_2013, season = "Spring", year = "2013") # basically need to switch end dates of OCH sampleing to end date of ER sample - seems to be some missing data between when ER sensors ends for 2013 and begins for 2014
+ER_OCH_ReadCheckDates(data = HC_Fall_2013, season = "Fall", year = "2013") # should be fine if we use 2014 dates
+ER_OCH_ReadCheckDates(data = GFB_Fall_2012, season = "Fall", year = "2012") # back calculate fall dates
+ER_OCH_ReadCheckDates(data = SAN_Fall_2012, season = "Fall", year = "2012") # back calculate fall dates
+
+ER_OCH_Check(basin = "Garden Canyon", season = "Spring", year = "2013")
+
+
+# calculate a month later, not a month previously 
+
+#AC_Fall_2012
+AC_Fall_2012_Check <- AC_Fall_2012[AC_Fall_2012$stat == "CheckDates", ]
+for (i in 1:length(AC_Fall_2012_Check$stat)) {
+  row <- # isolate row with the OCH Site Name
+    which(
+      SampleDates$Site == AC_Fall_2012_Check$OCH_names[i] &
+        SampleDates$Season == "Fall" &
+        substr(
+          SampleDates$`DAY/MONTH/YEAR`,
+          start = 1,
+          stop = 4
+        ) == "2012"
+    )
+  ER <- which(Sensor_df$data.Sensor == AC_Fall_2012_Check$ER_vector[i])
+  SampleDates$`DAY/MONTH/YEAR`[row] <- sensor_info$StartDate2013[ER]
+  a <- (sensor_info$StartDate2013[ER] + days(30))
+  SampleDates$PrevMonth[row] <- a
 }
 
-
-
-DistanceMatrices <- function(basin, season, year){
-  if (basin == "Ash Canyon" & season == "Spring" & year == "2013")
-    mat <- distm(Sensor_df[c(1:4), c(3,2)], OCH_lat_lon[c(34:39), c(5,4)], fun=distVincentyEllipsoid)
-  rownames(mat) <- Sensor_df$data.Sensor[1:4]
-  colnames(mat) <- OCH_lat_lon$Site[34:39]
-  df <- as.data.frame(mat)
-  OCH_ER_Match <- MinDistList(data = df)
-  OCH_ER_Match <- as.data.frame(OCH_ER_Match)
-  OCH_ER_Match$ER_vector <- as.character(OCH_ER_Match$ER_vector)
-  OCH_ER_Match$OCH_names <- as.character(OCH_ER_Match$OCH_names)
-  stat <- vector()
-  for (i in 1:length(OCH_ER_Match$ER_vector)){
-    b <- DateStatus(ER_Name = OCH_ER_Match$ER_vector[i], OCH_Name = OCH_ER_Match$OCH_names[i], season = season, year = year)
-    stat <- c(stat, b)
-  }
-  
-  
-}
+# GFB_Fall_2012
+GFB_Fall_2012_Check <- GFB_Fall_2012[GFB_Fall_2012$stat == "CheckDates", ]
+for (i in 1:length(GFB_Fall_2012_Check$stat)) {
+  row <- # isolate row with the OCH Site Name
+    which(
+      SampleDates$Site == GFB_Fall_2012_Check$OCH_names[i] &
+        SampleDates$Season == "Fall" &
+        substr(
+          SampleDates$`DAY/MONTH/YEAR`,
+          start = 1,
+          stop = 4
+        ) == "2012"
+    )
+  ER <- which(Sensor_df$data.Sensor == GFB_Fall_2012_Check$ER_vector[i])
+  SampleDates$`DAY/MONTH/YEAR`[row] <- sensor_info$StartDate2013[ER]
+  a <- (sensor_info$StartDate2013[ER] + days(30))
+  SampleDates$PrevMonth[row] <- a
 }
 
+# SAN_Fall_2012
+SAN_Fall_2012_Check <- SAN_Fall_2012[SAN_Fall_2012$stat == "CheckDates", ]
+for (i in 1:length(SAN_Fall_2012_Check$stat)) {
+  row <- # isolate row with the OCH Site Name
+    which(
+      SampleDates$Site == SAN_Fall_2012_Check$OCH_names[i] &
+        SampleDates$Season == "Fall" &
+        substr(
+          SampleDates$`DAY/MONTH/YEAR`,
+          start = 1,
+          stop = 4
+        ) == "2012"
+    )
+  ER <- which(Sensor_df$data.Sensor == SAN_Fall_2012_Check$ER_vector[i])
+  SampleDates$`DAY/MONTH/YEAR`[row] <- sensor_info$StartDate2013[ER]
+  a <- (sensor_info$StartDate2013[ER] + days(30))
+  SampleDates$PrevMonth[row] <- a
+}
 
+# use ER_OCH_Check to write new if_statement and get the WC years that don't have WAT1 or WAT2 ER Sensor info
+WC_Fall_2013 <- ER_OCH_Check(basin = "Water Canyon without WAT1/WAT2", season = "Fall", year = "2013")
+WC_Spring_2013 <- ER_OCH_Check(basin = "Water Canyon without WAT1/WAT2", season = "Spring", year = "2013")
 
+# use ER_OCH_Check to write new if-statement for GC seasons that have limited number of sensors bc of flash flood
+GC_Fall_2013 <- ER_OCH_Check(basin = "Garden Canyon with G2 and G3 Only", season = "Fall", year = "2013")
 
-interval(start = SampleDates$`DAY/MONTH/YEAR`[1], end = SampleDates$PrevMonth[1]) %within% interval(start = sensor_info$StartDate2013[1], end = sensor_info$EndDate2013[1]) 
+# GC_Spring_2013
+GC_Spring_2013_Check <- GC_Spring_2013[GC_Spring_2013$stat == "CheckDates", ]
+for (i in 1:length(GC_Spring_2013$stat)) {
+  row <- # isolate row with the OCH Site Name
+    which(
+      SampleDates$Site == GC_Spring_2013_Check$OCH_names[i] &
+        SampleDates$Season == "Spring" &
+        substr(
+          SampleDates$`DAY/MONTH/YEAR`,
+          start = 1,
+          stop = 4
+        ) == "2013"
+    )
+  ER <- which(Sensor_df$data.Sensor == GC_Spring_2013_Check$ER_vector[i])
+  SampleDates$`DAY/MONTH/YEAR`[row] <- sensor_info$EndDate2013[ER]
+}
 
+# HC_Spring_2013
+HC_Spring_2013_Check <- HC_Spring_2013[HC_Spring_2013$stat == "CheckDates", ]
+for (i in 1:length(HC_Spring_2013$stat)) {
+  row <- # isolate row with the OCH Site Name
+    which(
+      SampleDates$Site == HC_Spring_2013_Check$OCH_names[i] &
+        SampleDates$Season == "Spring" &
+        substr(
+          SampleDates$`DAY/MONTH/YEAR`,
+          start = 1,
+          stop = 4
+        ) == "2013"
+    )
+  ER <- which(Sensor_df$data.Sensor == HC_Spring_2013_Check$ER_vector[i])
+  SampleDates$`DAY/MONTH/YEAR`[row] <- sensor_info$EndDate2013[ER]
+}
 
+# HC Fall 2013
+HC_Fall_2013 <- ER_OCH_Check(basin = "Huachuca Canyon Fall 2013", season = "Fall", year = "2013")
 
-
-# Basically need to make a series of distance matrices though a very very specific function
