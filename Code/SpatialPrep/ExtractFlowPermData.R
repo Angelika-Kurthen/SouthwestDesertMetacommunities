@@ -64,7 +64,7 @@ write.csv(GFB_Fall_2013, file = "Private-MetacommunityData/SpatialData/GFB_Fall_
 
 write.csv(SAN_Fall_2012, file = "Private-MetacommunityData/SpatialData/SAN_Fall_2012.csv")
 write.csv(SAN_Spring_2013, file = "Private-MetacommunityData/SpatialData/SAN_Spring_2013.csv")
-write.csv(SAN_Fall_2013, file = "Private-MetacommunityData/SpatialData/SAN_Fall_2013.csv"
+write.csv(SAN_Fall_2013, file = "Private-MetacommunityData/SpatialData/SAN_Fall_2013.csv")
 # DEFUNCT FOR LOOP THAT WONT WORK FOR SOME REASON
 
 dflist <- list(
