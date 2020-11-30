@@ -26,8 +26,8 @@ for (i in 1:length(GC_Spring_2013$stat)) {
 }
 
 # HC_Spring_2013
-HC_Spring_2013_Check <- HC_Spring_2013[HC_Spring_2013$stat == "CheckDates", ]
-for (i in 1:length(HC_Spring_2013$stat)) {
+#HC_Spring_2013_Check <- HC_Spring_2013[HC_Spring_2013$stat == "CheckDates", ]
+#for (i in 1:length(HC_Spring_2013$stat)) {
   row <- # isolate row with the OCH Site Name
     which(
       SampleDates$Site == HC_Spring_2013_Check$OCH_names[i] &
