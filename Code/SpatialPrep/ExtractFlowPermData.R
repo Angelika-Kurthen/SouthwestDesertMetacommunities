@@ -41,9 +41,30 @@ SAN_Fall_2012 <- cbind(SAN_Fall_2012, FlowPermCalc(dataframe = SAN_Fall_2012, se
 SAN_Spring_2013 <- cbind(SAN_Spring_2013, FlowPermCalc(dataframe = SAN_Spring_2013, season = "Spring", year = "2013", ERData = "2013"))
 SAN_Fall_2013 <- cbind(SAN_Fall_2013, FlowPermCalc(dataframe = SAN_Fall_2013, season = "Fall", year = "2013", ERData = "2013"))
 
+# now save them all as csv files so we can read them into ArcGus or QGis
 
+write.csv(AC_Fall_2012, file = "Private-MetacommunityData/SpatialData/AC_Fall_2012.csv")
+write.csv(AC_Spring_2013, file = "Private-MetacommunityData/SpatialData/AC_Spring_2013.csv")
+write.csv(AC_Fall_2013, file = "Private-MetacommunityData/SpatialData/AC_Fall_2013.csv")
 
+write.csv(WC_Fall_2013, file = "Private-MetacommunityData/SpatialData/WC_Fall_2013.csv")
+write.csv(WC_Spring_2013, file = "Private-MetacommunityData/SpatialData/WC_Spring_2013.csv")
 
+write.csv(GC_Fall_2012, file = "Private-MetacommunityData/SpatialData/GC_Fall_2012.csv")
+write.csv(GC_Spring_2013, file = "Private-MetacommunityData/SpatialData/GC_Spring_2013.csv")
+write.csv(GC_Fall_2013, file = "Private-MetacommunityData/SpatialData/GC_Fall_2013.csv")
+
+write.csv(HC_Fall_2012, file = "Private-MetacommunityData/SpatialData/HC_Fall_2012.csv")
+write.csv(HC_Spring_2013, file = "Private-MetacommunityData/SpatialData/HC_Spring_2013.csv")
+write.csv(HC_Fall_2013, file = "Private-MetacommunityData/SpatialData/HC_Fall_2013.csv")
+
+write.csv(GFB_Fall_2012, file = "Private-MetacommunityData/SpatialData/GFB_Fall_2012.csv")
+write.csv(GFB_Spring_2013, file = "Private-MetacommunityData/SpatialData/GFB_Spring_2013.csv")
+write.csv(GFB_Fall_2013, file = "Private-MetacommunityData/SpatialData/GFB_Fall_2013.csv")
+
+write.csv(SAN_Fall_2012, file = "Private-MetacommunityData/SpatialData/SAN_Fall_2012.csv")
+write.csv(SAN_Spring_2013, file = "Private-MetacommunityData/SpatialData/SAN_Spring_2013.csv")
+write.csv(SAN_Fall_2013, file = "Private-MetacommunityData/SpatialData/SAN_Fall_2013.csv"
 # DEFUNCT FOR LOOP THAT WONT WORK FOR SOME REASON
 
 dflist <- list(
