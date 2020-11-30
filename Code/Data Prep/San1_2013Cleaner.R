@@ -28,7 +28,7 @@ dates <- c(dates2012, dates2013)
 
 #add to San1 data
 San1Clean[1] <- dates
-
+colnames(San1Clean) <- c("Date", "Value", "Interpretation")
 #save file
 write.csv(San1Clean, 
           file = 

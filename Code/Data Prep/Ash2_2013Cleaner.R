@@ -8,6 +8,7 @@ Ash2 <- read_excel("Private-MetacommunityData/RawData/Sensor composites (1).xlsx
                    sheet = "Ash cyn")
 # only select relevant columns and headers
 Ash2Clean <- Ash2[-c(1:170), c(6,7,8)] 
+colnames(Ash2Clean) <- c("Date", "Value")
 
 #save file
 write.csv(Ash2Clean, 

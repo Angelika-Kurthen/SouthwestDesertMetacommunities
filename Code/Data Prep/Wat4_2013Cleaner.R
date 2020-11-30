@@ -8,6 +8,7 @@ Wat4 <- read_excel("Private-MetacommunityData/RawData/Sensor composites (1).xlsx
                    sheet = "Water canyon")
 
 Wat4Clean <- Wat4[ ,c(2,12,13)]
+colnames(Wat4Clean) <- c("Date", "Value", "Interpretation")
 
 #save file
 write.csv(Wat4Clean, 

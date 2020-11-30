@@ -7,6 +7,7 @@ GFB1 <- read_excel("Private-MetacommunityData/RawData/Sensor composites (1).xlsx
                    sheet = "GFB")
 
 GFB_1Clean <- GFB1[ , c(1,2,3)]
+colnames(GFB_1Clean) <- c("Date", "Value", "Interpretation")
 
 # save file 
 write.csv(GFB_1Clean, 

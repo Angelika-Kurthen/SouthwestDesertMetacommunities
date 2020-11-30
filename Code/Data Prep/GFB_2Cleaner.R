@@ -9,7 +9,7 @@ GFB_2 <- read_excel("Private-MetacommunityData/RawData/GFB composite (1).xlsx",
 
 # only select relevant columns and headers
 GFB_2Clean <- GFB_2[, c(2, 3, 4)] 
-
+colnames(GFB_2Clean) <- c("Date", "Value", "Interpretation")
 # save file 
 write.csv(GFB_2Clean, 
           file = 
