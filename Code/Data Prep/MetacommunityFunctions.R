@@ -30,6 +30,7 @@ PrepAndCleanHoboCSV <- function(csv, csvpath) {
     mdy(CleanData$Group.1) # make sure dates are in month-day-year form
   CleanData <-
     arrange(CleanData, Group.1) # put data into chronological order
+  colnames(CleanData) <- c("Date", "Value")
   name <- paste0(str_sub(csv, end = -5 ),"Clean", ".csv")
   write.csv(CleanData,
             file = paste0("Private-MetacommunityData/CleanERData/", name))
@@ -204,8 +205,8 @@ ER_OCH_Check <- function(basin, season, year) {
   }
   if (basin == "Garden Canyon with G2 and G3 Only" ){
     mat <- 
-      distm(Sensor_df[c(5:7), c(3,2)], OCH_lat_lon[c(6:14), c(5,4)], fun = distVincentyEllipsoid)
-    rownames(mat) <- Sensor_df$data.Sensor[5:7]
+      distm(Sensor_df[c(6:7), c(3,2)], OCH_lat_lon[c(6:14), c(5,4)], fun = distVincentyEllipsoid)
+    rownames(mat) <- Sensor_df$data.Sensor[6:7]
     colnames(mat) <- OCH_lat_lon$Site[6:14]
   }
   if (basin == "Huachuca Canyon Fall 2013") {
@@ -328,10 +329,11 @@ DateStatusFor2014Data <- function(ER_Name, OCH_Name, season, year) {
   }
   return(status)
 }
-
-FlowPermCalc <- function(data, season, year, ERData) {
+FlowPermCalc(d, season = "Spring", year = "2013", ERData = "2013")
+FlowPermCalc <- function(dataframe, season, year, ERData) {
   rm(flowperm)
   flowperm <- vector()
+  data <- dataframe
   for (i in 1:length(data$ER_vector)) {
     if (data$stat[i] != "DNE") {
       row <-
@@ -350,19 +352,21 @@ FlowPermCalc <- function(data, season, year, ERData) {
       lastday <- as.character(lastday)
       if (ERData == "2013") {
         sensorfile <-
-          as.character(Sensor_df[which(Sensor_df$data.Sensor == data$ER_vector[2]), 8])
+          as.character(Sensor_df[which(Sensor_df$data.Sensor == data$ER_vector[i]), 8])
         sensorfile <- gsub(" ", "", sensorfile, fixed = TRUE)
       }
+      
       if (ERData == "2014") {
         sensorfile <-
-          as.character(Sensor_df[which(Sensor_df$data.Sensor == data$ER_vector[2]), 11])
+          as.character(Sensor_df[which(Sensor_df$data.Sensor == data$ER_vector[i]), 11])
         sensorfile <- gsub(" ", "", sensorfile, fixed = TRUE)
       }
+      w <- paste0("Private-MetacommunityData/CleanERData/", sensorfile)
       table <-
-        read.csv(paste0("Private-MetacommunityData/CleanERData/", sensorfile))
-      table$Date <- as.Date(table$Date)
-      a <- which(table$Date == day1)
-      b <- which(table$Date == lastday)
+        read_csv(w)
+      dates <- as.Date(table$Date)
+      a <- which(dates == day1)
+      b <- which(dates == lastday)
       c <- length(table$hydro[a:b])
       d <- sum(table$hydro[a:b] == "Wet")
       e <- d / c
