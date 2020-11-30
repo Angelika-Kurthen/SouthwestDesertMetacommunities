@@ -12,7 +12,7 @@ AC_Spring_2013 <- ER_OCH_Check(basin = "Ash Canyon", season = "Spring", year = "
 AC_Fall_2013 <- ER_OCH_Check(basin = "Ash Canyon", season = "Fall", year = "2013")
 
 # Check Water Canyon Dates
-WC_Fall_2012 <- ER_OCH_Check(basin = "Water Canyon", season = "Fall", year = "2012") # Check Dates
+WC_Fall_2012 <- ER_OCH_Check(basin = "Water Canyon", season = "Fall", year = "2012") # Check Dates - main issue is that ER Sensor sampleing didn't start until Nov - samples taken in Oct - for now exclude?
 WC_Spring_2013 <- ER_OCH_Check(basin = "Water Canyon", season = "Spring", year = "2013") # some Check Dates
 WC_Fall_2013 <- ER_OCH_Check(basin = "Water Canyon", season = "Spring", year = "2013") # some Check Dates
 
