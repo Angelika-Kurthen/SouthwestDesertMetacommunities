@@ -45,4 +45,4 @@ WC_Spring_2013 <- ER_OCH_Check(basin = "Water Canyon without WAT1/WAT2", season 
 # use ER_OCH_Check to write new if-statement for GC seasons that have limited number of sensors bc of flash flood
 GC_Fall_2013 <- ER_OCH_Check(basin = "Garden Canyon with G2 and G3 Only", season = "Fall", year = "2013")
 # HC Fall 2013
-HC_Fall_2013 <- ER_OCH_Check(basin = "Huachuca Canyon Fall 2013", season = "Fall", year = "2013")
+HC_Fall_2013  <- ER_OCH_Check(basin = "Huachuca Canyon Fall 2013", season = "Fall", year = "2013")

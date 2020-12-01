@@ -379,3 +379,12 @@ FlowPermCalc <- function(dataframe, season, year, ERData) {
   return(flowperm)
 }
 
+
+GetLatLong <- function(data){
+  latlong <- data.frame(Latitude <- double(), Longitude <- double())
+for (i in 1:length(data$ER_vector)){
+  latlong[i] <- OCH_lat_lon[which(OCH_lat_lon$Site == data$OCH_names[i]), c(4,5)]
+
+}
+  return(latlong)
+}

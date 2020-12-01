@@ -41,7 +41,32 @@ SAN_Fall_2012 <- cbind(SAN_Fall_2012, FlowPermCalc(dataframe = SAN_Fall_2012, se
 SAN_Spring_2013 <- cbind(SAN_Spring_2013, FlowPermCalc(dataframe = SAN_Spring_2013, season = "Spring", year = "2013", ERData = "2013"))
 SAN_Fall_2013 <- cbind(SAN_Fall_2013, FlowPermCalc(dataframe = SAN_Fall_2013, season = "Fall", year = "2013", ERData = "2013"))
 
+
+AC_Fall_2012 <- cbind(AC_Fall_2012, GetLatLong(data = AC_Fall_2012))
+AC_Spring_2013 <- cbind(AC_Spring_2013, GetLatLong(data = AC_Spring_2013))
+AC_Fall_2013 <- cbind(AC_Fall_2013, GetLatLong(data = AC_Fall_2013))
+
+WC_Spring_2013 <- cbind(WC_Spring_2013, GetLatLong(data = WC_Spring_2013))
+WC_Fall_2013 <- cbind(WC_Fall_2013, GetLatLong(data = WC_Fall_2013))
+
+GC_Fall_2012 <- cbind(GC_Fall_2012, GetLatLong(data = GC_Fall_2012))
+GC_Spring_2013 <- cbind(GC_Spring_2013, GetLatLong(data = GC_Spring_2013))
+GC_Fall_2013 <- cbind(GC_Fall_2013, GetLatLong(data = GC_Fall_2013))
+
+HC_Fall_2012 <- cbind(HC_Fall_2012, GetLatLong(data = HC_Fall_2012))
+HC_Spring_2013 <- cbind(HC_Spring_2013, GetLatLong(data = HC_Spring_2013))
+HC_Fall_2013 <- cbind(HC_Fall_2013, GetLatLong(data = HC_Fall_2013))
+
+GFB_Fall_2012 <- cbind(GFB_Fall_2012, GetLatLong(data = GFB_Fall_2012))
+GFB_Spring_2013 <- cbind(GFB_Spring_2013, GetLatLong(data = GFB_Spring_2013))
+GFB_Fall_2013 <- cbind(GFB_Fall_2013, GetLatLong(data = GFB_Fall_2013))
+
+SAN_Fall_2012 <- cbind(SAN_Fall_2012, GetLatLong(data = SAN_Fall_2012))
+SAN_Spring_2013 <- cbind(SAN_Spring_2013, GetLatLong(data = SAN_Spring_2013))
+SAN_Fall_2013 <- cbind(SAN_Fall_2013, GetLatLong(data = SAN_Spring_2013))
+
 # now save them all as csv files so we can read them into ArcGus or QGis
+
 
 write.csv(AC_Fall_2012, file = "Private-MetacommunityData/SpatialData/AC_Fall_2012.csv")
 write.csv(AC_Spring_2013, file = "Private-MetacommunityData/SpatialData/AC_Spring_2013.csv")
@@ -65,6 +90,13 @@ write.csv(GFB_Fall_2013, file = "Private-MetacommunityData/SpatialData/GFB_Fall_
 write.csv(SAN_Fall_2012, file = "Private-MetacommunityData/SpatialData/SAN_Fall_2012.csv")
 write.csv(SAN_Spring_2013, file = "Private-MetacommunityData/SpatialData/SAN_Spring_2013.csv")
 write.csv(SAN_Fall_2013, file = "Private-MetacommunityData/SpatialData/SAN_Fall_2013.csv")
+
+
+
+
+
+
+
 # DEFUNCT FOR LOOP THAT WONT WORK FOR SOME REASON
 
 dflist <- list(

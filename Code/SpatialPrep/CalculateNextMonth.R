@@ -26,6 +26,8 @@ for (i in 1:length(AC_Fall_2012_Check$stat)) {
   SampleDates$PrevMonth[row] <- a
 }
 
+AC_Fall_2012 <- ER_OCH_Check(basin = "Ash Canyon", season = "Fall", year = "2012")
+
 # GFB_Fall_2012
 GFB_Fall_2012_Check <- GFB_Fall_2012[GFB_Fall_2012$stat == "CheckDates", ]
 for (i in 1:length(GFB_Fall_2012_Check$stat)) {
@@ -45,6 +47,8 @@ for (i in 1:length(GFB_Fall_2012_Check$stat)) {
   SampleDates$PrevMonth[row] <- a
 }
 
+GFB_Fall_2012 <- ER_OCH_Check(basin = "Great Falls Basin", season = "Fall", year = "2012")
+
 # SAN_Fall_2012
 SAN_Fall_2012_Check <- SAN_Fall_2012[SAN_Fall_2012$stat == "CheckDates", ]
 for (i in 1:length(SAN_Fall_2012_Check$stat)) {
@@ -63,3 +67,5 @@ for (i in 1:length(SAN_Fall_2012_Check$stat)) {
   a <- (sensor_info$StartDate2013[ER] + days(30))
   SampleDates$PrevMonth[row] <- a
 }
+
+SAN_Fall_2012 <- ER_OCH_Check(basin = "San Andres Canyon", season = "Fall", year = "2012")
