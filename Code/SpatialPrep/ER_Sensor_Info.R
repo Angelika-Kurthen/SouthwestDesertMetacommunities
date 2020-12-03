@@ -22,3 +22,4 @@ sensor_info$StartDate2014.1 <- mdy(sensor_info$StartDate2014.1)
 
 Sensor_df <- merge(ER_LatLong, sensor_info, by.x = "data.Sensor", by.y = "Sensor")
 Sensor_df$data.Sensor <- as.character(Sensor_df$data.Sensor)
+
