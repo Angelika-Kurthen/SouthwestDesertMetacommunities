@@ -160,9 +160,7 @@ DateStatus <- function(ER_Name, OCH_Name, season, year) {
 }
 
 
-basin = "Great Falls Basin"
-season = "Fall"
-year = "2012"
+
 
 ER_OCH_Check <- function(basin, season, year) {
   if (basin == "Ash Canyon") {
@@ -337,10 +335,7 @@ DateStatusFor2014Data <- function(ER_Name, OCH_Name, season, year) {
 }
 
 
-dataframe <- GC_Spring_2013
-season <- "Spring"
-year <- "2013"
-ERData <- "2013"
+
 
 FlowPermCalc <- function(dataframe, season, year, ERData) {
   rm(flowperm)
@@ -400,3 +395,4 @@ for (i in 1:length(data$ER_vector)){
 }
   return(latlong)
 }
+
