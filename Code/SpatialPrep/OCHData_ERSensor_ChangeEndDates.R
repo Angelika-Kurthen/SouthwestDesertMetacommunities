@@ -29,7 +29,7 @@ GC_Spring_2013 <- ER_OCH_Check(basin = "Garden Canyon", season = "Spring", year 
 
 # HC_Spring_2013
 HC_Spring_2013_Check <- HC_Spring_2013[HC_Spring_2013$stat == "CheckDates", ]
-for (i in 1:length(HC_Spring_2013$stat)) {
+for (i in 1:length(HC_Spring_2013_Check$stat)) {
   row <- # isolate row with the OCH Site Name
     which(
       SampleDates$Site == HC_Spring_2013_Check$OCH_names[i] &
