@@ -74,7 +74,7 @@ write.csv(SAN_Fall_2013, file = "Private-MetacommunityData/SpatialData/SAN_Fall_
 
 # DEFUNCT FOR LOOP THAT WONT WORK FOR SOME REASON
 
-dflist <- list(
+dflist <- list( # make list of data frames
   AC_Fall_2012,
   AC_Spring_2013,
   AC_Fall_2013,
@@ -94,7 +94,7 @@ dflist <- list(
   SAN_Spring_2013,
   SAN_Fall_2013
 )
-namelist <- c("AC_Fall_2012",
+namelist <- c("AC_Fall_2012", # make list of names
                 "AC_Spring_2013",
                 "AC_Fall_2013",
                 "WC_Fall_2012",
@@ -112,13 +112,12 @@ namelist <- c("AC_Fall_2012",
                 "SAN_Fall_2012",
                 'SAN_Spring_2013',
                 "SAN_Fall_2013")
-ERDatalist <- c(rep("2013", 8), "2014", rep("2013", 2), "2014", rep("2013", 6)) 
-for(h in 1:length(dflist)){
-  k <- namelist[h]
-  j <- str_split_fixed(k, "_", 3)
-  l <- FlowPermCalc(dataframe = dflist[[h]], season = j[1,2], year = j[1,3], ERData = ERDatalist[h])
-  m <- cbind(dflist[[h]], l)
-  print(h)
-  assign(noquote(k), m)
+ERDatalist <- c(rep("2013", 8), "2014", rep("2013", 2), "2014", rep("2013", 6)) # make list of ERData years
+for(h in 1:length(dflist)){ # cycle through each data frame
+  k <- namelist[h] # data frame position should line up with appropriate name
+  j <- str_split_fixed(k, "_", 3) # extract infor about year and season
+  l <- FlowPermCalc(dataframe = dflist[[h]], season = j[1,2], year = j[1,3], ERData = ERDatalist[h]) # plug into formula
+  m <- cbind(dflist[[h]], l) # append flowperm to dataframe
+  assign(noquote(k), m) # reassign new updated dataframe to name
 }
 
