@@ -60,3 +60,10 @@ WS_Fall_2013 <- rbind(AC_Fall_2013, SAN_Fall_2013)
 
 FH_Fall_2012 <- rbind(HC_Fall_2012, GC_Fall_2012)
 FH_Spring_2013 <- rbind(HC_Spring_2013, GC_Spring_2013)
+FH_Fall_2013 <- rbind(HC_Fall_2013, GC_Fall_2013)
+
+CL_Fall_2012 <- rbind(GFB_Fall_2012)
+CL_Spring_2013 <- rbind(WC_Spring_2013, GFB_Spring_2013)
+CL_Fall_2013 <- rbind(WC_Fall_2013, GFB_Fall_2013, AC_Fall_2013)
+
+allsites <- rbind(WS_Spring_2013, FH_Spring_2013, CL_Spring_2013)
