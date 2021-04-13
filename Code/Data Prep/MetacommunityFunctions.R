@@ -396,3 +396,13 @@ for (i in 1:length(data$ER_vector)){
   return(latlong)
 }
 
+seasonchao <- function(data1, data2) {
+  df <- rbind(data1, data2)
+  mat <- as.data.frame(pivot_wider.(df, names_from = Taxa, values_from = Count, id_cols = c(Site, Season,`DAY.MONTH.YEAR`)))
+  mat <- mat[ , -c(1,2,3)]
+  mat[is.na(mat)] = 0
+  mat <- as.matrix(mat)
+  dist <- vegdist(mat, "chao", na.rm = T)
+  vec <- as.vector(dist)
+  return(vec)
+}

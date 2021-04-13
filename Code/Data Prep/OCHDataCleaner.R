@@ -14,6 +14,8 @@ library(stringr)
 library(vegan)
 library(ggplot2)
 
+source('Code/Data Prep/MetacommunityFunctions.R')
+
 DesertMetacommunityDataSet <-
   read_excel("Private-MetacommunityData/RawData/DesertMetacommunityDataset.xlsx",
              sheet = "Full Database OCH Only")
@@ -219,6 +221,7 @@ NamesList <-
     "GaMCSY",
     "GaMCCH",
     "GaM",
+    "GaNF",
     "GaL",
     "GFB_ARR" ,
     "GFB_BUU" ,
@@ -242,13 +245,15 @@ NamesList <-
     "HuL",
     "HuC",
     "HuA",
-    "SAL_MAL",
     "SAN_SASL",
     "SAN_SASU",
     "SAN_UU",
+    "SAN_MID",
+    "SAN_INT",
     "WAT_BFS1",
     "WAT_BFS2",
     "WAT_BR",
+    "CC",
     "WAT_LM" ,
     "WAT_Main_HRS",
     "WAT_MAM" ,
@@ -270,6 +275,9 @@ for (i in NamesList) {
       b <- length(a$Site)
       if (b <= 1) {
         print("Site DNE")
+        print(i)
+        print(j)
+        print(k)
       } else{
         for (l in unique(a$Family)) {
           fam = subset(a, a$Family == l)
@@ -434,4 +442,5 @@ DrainMetacom <-
     `San Andres Canyon2013Spring`,
     `San Andres Canyon2013Fall`
   )
-write.csv(DrainMetacom, file = "Private-MetacommunityData/CleanData/DrainMetacom_Sorted.csv")
+write.csv(DrainMetacom, file = "Private-MetacommunityData/CleanOCHData/DrainMetacom_Sorted.csv")
+
