@@ -76,3 +76,4 @@ df[i, ] <- cbind(as.character(list$Sensor[i]), tot, wet, wet/tot)
 
 }
 ER_Flowperm <- df
+
