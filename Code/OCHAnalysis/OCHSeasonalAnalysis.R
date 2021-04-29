@@ -12,6 +12,8 @@ library(stringr)
 library(vegan)
 library(ggplot2)
 
+
+
 DrainMetacom <- read.csv("~/SouthwestDesertMetacommunities/Private-MetacommunityData/CleanOCHData/DrainMetacom_Sorted.csv")
 DrainMetacom <- DrainMetacom[ , -1]
 sites <- levels(DrainMetacom$Site)
@@ -65,11 +67,12 @@ seasonalsitechao <- merge(seasonalsitechao, ER_Flowperm, by = "Sensor")
 seasonalsitechao$Chao <- as.numeric(as.character(seasonalsitechao$Chao))
 seasonalsitechao$flowperm <- as.numeric(as.character(seasonalsitechao$flowperm))
 
-ggplot(data = seasonalsitechao, aes(x = flowperm, y = Chao))+
+ggplot(data = seasonalsitechao, aes(x = flowperm, y = Chao, col = ))+
   geom_point()+
   stat_smooth(se = T, method = lm)+
-  facet_grid(Comparison~Basin)
+  facet_grid(.~Basin)
   
   
-
+hist(seasonalsitechao$Chao)
   
+hist(seasonalsitechao$Chao[which(seasonalsitechao$Basin == "Ash Canyon" | seasonalsitechao$Basin == "San Andres Canyon")])
