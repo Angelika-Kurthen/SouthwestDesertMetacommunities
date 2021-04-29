@@ -397,11 +397,18 @@ for (i in 1:length(data$ER_vector)){
 }
 
 seasonchao <- function(data1, data2) {
-  df <- rbind(data1, data2)
+  df <- rbind(data1, data2) 
   mat <- as.data.frame(pivot_wider.(df, names_from = Taxa, values_from = Count, id_cols = c(Site, Season,`DAY.MONTH.YEAR`)))
+  #if(length(data1$Site) < 1 ){
+    #mat <- rbind(mat, c(paste(mat[ ,1]), NA, NA, rep(0, time = length(mat) - 2)))
+  #}
+  #if(length(data2$Site) <1){
+    #mat <- rbind(mat, c(paste(mat[ ,1]), NA, NA, rep(0, time = length(mat) - 2)))
+  #}
   mat <- mat[ , -c(1,2,3)]
   mat[is.na(mat)] = 0
   mat <- as.matrix(mat)
+  mat <- apply(mat, 2, as.numeric)
   dist <- vegdist(mat, "chao", na.rm = T)
   vec <- as.vector(dist)
   return(vec)
