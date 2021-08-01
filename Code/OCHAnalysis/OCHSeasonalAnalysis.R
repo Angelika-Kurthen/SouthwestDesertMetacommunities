@@ -72,6 +72,24 @@ ggplot(data = seasonalsitechao, aes(x = flowperm, y = Chao, col = ))+
   stat_smooth(se = T, method = lm)+
   facet_grid(.~Basin)
   
+hydro_group <- vector()
+for (i in 1:length(seasonalsitechao$flowperm)){
+  if (seasonalsitechao$flowperm[i] >= 0.99 ){
+    hydro_group[i] <- "Perennial"
+  }
+  if (seasonalsitechao$flowperm[i] >= 0.5 & seasonalsitechao$flowperm[i] < 0.99){
+    hydro_group[i] <- "Intermittent"
+  }
+  if (seasonalsitechao$flowperm[i] < 0.5){
+    hydro_group[i] <- "Ephemeral"
+  }
+}
+
+seasonalsitechao <- cbind(seasonalsitechao, hydro_group)
+
+ggboxplot(seasonalsitechao, x = "hydro_group", y = "Chao")
+TukeyHSD(aov(data = seasonalsitechao, seasonalsitechao$Chao ~ seasonalsitechao$hydro_group))
+
   
 hist(seasonalsitechao$Chao)
   

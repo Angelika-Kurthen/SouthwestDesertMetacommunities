@@ -4,26 +4,42 @@
 
 library(readxl)
 library(ggplot2)
-ClimateData <- read_excel("Private-MetacommunityData/RawData/ClimateData.xlsx")
-ClimateData <- ClimateData[ , c(-3, -5, -7)]
-name<- c("Location", "Month", "Temperature", "Precipitation")
-names(ClimateData) <- name
+library(climatol)
 
-colors <- c("Temperature" = "red")
-fills <- c("Precipitation" = "blue")
 
-month_order <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+par(mfrow = c(1,1))
 
-ggplot(ClimateData, aes(x = Month, y = Precipitation))+
-  geom_bar(aes(x=Month, y=Precipitation, fill = "Precipitation"), stat="identity", color="black")+
-  geom_line(aes(x=Month, y=Temperature*2, group=1, color = "Temperature"), size=1.5)+
-  scale_color_manual(values = colors)+
-  scale_fill_manual(values = fills)+
-  facet_wrap(~Location)+
-  ylab("Precipitation (mm)")+
-  scale_x_discrete(limits=month_order)+
-  scale_y_continuous(sec.axis = sec_axis(~.*.5, name = "Temperature (C)"))+
-  theme_minimal()+
-  theme(axis.text.x = element_text(angle = 90))+
-  theme(legend.title = element_blank())
-  
+#read in China Lake climate data
+CLClimateData <- as.data.frame(read_excel("Private-MetacommunityData/RawData/ClimateData.xlsx", sheet = "ChinaLake"))
+
+#use diagwl to make a walter leith diagram
+clwl <- diagwl(CLClimateData[,-1], est = "China Lake, CA", alt = 68.3, per= "1978-2012", margen = c(4,4,5,4), mlab = "en")
+# add some labels to make everything clearer
+clwl <- clwl + mtext("Avg. Temp.", side = 3, line = 1, adj = 0.59, cex = 0.9) +
+  mtext("Annual Precip.", side = 3.5, line = 1, adj = 0.85, cex = 0.9)+
+  mtext("Max", side = 2, line = -0.5, at = 0.6, las=1)+
+  mtext("Min", side = 2, line = -0.5, at = 0.27, las = 1)
+
+#read in Fort Huachuca climate data
+FHClimateData <- as.data.frame(read_excel("Private-MetacommunityData/RawData/ClimateData.xlsx", sheet = "FortHuachuca"))
+
+#use diagwl to make a walter leith diagram
+fhwl <- diagwl(FHClimateData[,-1], est = "Ft. Huachuca, AZ", alt = 142, per = "1900-2012", margen = c(4,4,5,4), mlab = "en")
+
+#add some labels to make everything clearer
+fhwl <- fhwl + mtext("Avg. Temp.", side = 3, line = 1, adj = 0.59, cex = 0.9) +
+  mtext("Annual Precip.", side = 3.5, line = 1, adj = 0.85, cex = 0.9)+
+  mtext("Max", side = 2, line = -0.5, at = 0.6, las=1)+
+  mtext("Min", side = 2, line = -0.5, at = 0.27, las = 1)
+
+
+# read in White Sands climate data 
+WSClimateData <- as.data.frame(read_excel("Private-MetacommunityData/RawData/ClimateData.xlsx", sheet = "WhiteSands"))
+# use diagwl to make walter leith diagram
+wswl <- diagwl(WSClimateData[,-1], est = "White Sands, NM", alt = 122, per = "1939-2012", margen = c(4,4,5,4), mlab = "en")
+# add labels
+wswl <- wswl + mtext("Avg. Temp.", side = 3, line = 1, adj = 0.59, cex = 0.9) +
+  mtext("Annual Precip.", side = 3.5, line = 1, adj = 0.85, cex = 0.9)+
+  mtext("Max", side = 2, line = -0.5, at = 0.6, las=1)+
+  mtext("Min", side = 2, line = -0.5, at = 0.27, las = 1)
+

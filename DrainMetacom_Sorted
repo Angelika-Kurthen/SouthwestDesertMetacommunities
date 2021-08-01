@@ -1,0 +1,996 @@
+"","Drainage","Site","Season","DAY/MONTH/YEAR","Family","Genus/sub-genus","Species","Taxa","Count"
+"1","Ash Canyon","ASH_LAS","Spring","2012","Coenagrionidae","Argia",NA,"Argia",1
+"2","Ash Canyon","ASH_LAS","Spring","2012","Corixidae","Graptocorixa","abdominalis","Graptocorixa abdominalis",1
+"3","Ash Canyon","ASH_LAS","Spring","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",3
+"4","Ash Canyon","ASH_LAS","Spring","2012","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"5","Ash Canyon","ASH_LAS","Spring","2012","Veliidae","Macrovelia","hornii","Macrovelia hornii",9
+"6","Ash Canyon","ASH_UAU","Spring","2012","Aeschnidae","Anax",NA,"Anax",6
+"7","Ash Canyon","ASH_UAU","Spring","2012","Aeschnidae","Rhionaeschna","multicolor","Rhionaeschna multicolor",2
+"8","Ash Canyon","ASH_UAU","Spring","2012","Coenagrionidae","Argia",NA,"Argia",40
+"9","Ash Canyon","ASH_UAU","Spring","2012","Corixidae","Graptocorixa","abdominalis","Graptocorixa abdominalis",3
+"10","Ash Canyon","ASH_UAU","Spring","2012","Dytiscidae","Agabus","perplexus","Agabus perplexus",4.2962962962963
+"11","Ash Canyon","ASH_UAU","Spring","2012","Dytiscidae","Agabus","semivittatus","Agabus semivittatus",8.59259259259259
+"12","Ash Canyon","ASH_UAU","Spring","2012","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",1.07407407407407
+"13","Ash Canyon","ASH_UAU","Spring","2012","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1.07407407407407
+"14","Ash Canyon","ASH_UAU","Spring","2012","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",5.37037037037037
+"15","Ash Canyon","ASH_UAU","Spring","2012","Dytiscidae","Rhantus","gutticollis mexicanus","Rhantus gutticollis mexicanus",4.2962962962963
+"16","Ash Canyon","ASH_UAU","Spring","2012","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",1.07407407407407
+"17","Ash Canyon","ASH_UAU","Spring","2012","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",3.22222222222222
+"18","Ash Canyon","ASH_UAU","Spring","2012","Gerridae","Aquarius","remigis","Aquarius remigis",14
+"19","Ash Canyon","ASH_UAU","Spring","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",6
+"20","Ash Canyon","ASH_UAU","Spring","2012","Hydrophilidae","Anacaena","signaticollis","Anacaena",3.25
+"21","Ash Canyon","ASH_UAU","Spring","2012","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",6.5
+"22","Ash Canyon","ASH_UAU","Spring","2012","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",3.25
+"23","Ash Canyon","ASH_UAU","Spring","2012","Lestidae","Archilestes","grandis","Archilestes grandis",11
+"24","Ash Canyon","ASH_UAU","Spring","2012","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",5
+"25","Ash Canyon","ASH_UAU","Spring","2012","Veliidae","Macrovelia","hornii","Macrovelia hornii",4
+"26","Ash Canyon","ASH_LAS","Fall","2012","Aeschnidae","Aeschna",NA,"Aeshna",4
+"27","Ash Canyon","ASH_LAS","Fall","2012","Coenagrionidae","Argia",NA,"Argia",717
+"28","Ash Canyon","ASH_LAS","Fall","2012","Dryopidae","Postelichus","immsi","Postelichus immsi",1
+"29","Ash Canyon","ASH_LAS","Fall","2012","Dytiscidae","Ilybiosoma","lugens","Ilybiosoma lugens",3
+"30","Ash Canyon","ASH_LAS","Fall","2012","Dytiscidae","Laccophilus","maculosus","Laccophilus maculosus",3
+"31","Ash Canyon","ASH_LAS","Fall","2012","Dytiscidae","Platambus","semivittatus","Platambus semivittatus",11
+"32","Ash Canyon","ASH_LAS","Fall","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",2
+"33","Ash Canyon","ASH_LAS","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",3
+"34","Ash Canyon","ASH_LAS","Fall","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",23
+"35","Ash Canyon","ASH_LAS","Fall","2012","Hydraenidae","Hydraena",NA,"Hydraena",2
+"36","Ash Canyon","ASH_LAS","Fall","2012","Hydrophilidae","Anacaena","signaticollis","Anacaena",6
+"37","Ash Canyon","ASH_LAS","Fall","2012","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",5
+"38","Ash Canyon","ASH_LAS","Fall","2012","Lestidae","Archilestes","grandis","Archilestes grandis",8
+"39","Ash Canyon","ASH_LAS","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",366
+"40","Ash Canyon","ASH_UAL","Fall","2012","Aeschnidae","Anax","longipes","Anax longipes",25
+"41","Ash Canyon","ASH_UAL","Fall","2012","Belostomatidae","Lethocerus","medius","Lethocerus medius",1
+"42","Ash Canyon","ASH_UAL","Fall","2012","Coenagrionidae","Argia",NA,"Argia",700
+"43","Ash Canyon","ASH_UAL","Fall","2012","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",21
+"44","Ash Canyon","ASH_UAL","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",6
+"45","Ash Canyon","ASH_UAL","Fall","2012","Haliplidae","Peltodytes",NA,"Peltodytes",10
+"46","Ash Canyon","ASH_UAL","Fall","2012","Hydraenidae","Hydraena",NA,"Hydraena",9
+"47","Ash Canyon","ASH_UAL","Fall","2012","Hydrophilidae","Anacaena","signaticollis","Anacaena",12
+"48","Ash Canyon","ASH_UAL","Fall","2012","Lestidae","Archilestes","grandis","Archilestes grandis",12
+"49","Ash Canyon","ASH_UAL","Fall","2012","Libellulidae","Libellula",NA,"Libellula",3
+"50","Ash Canyon","ASH_UAL","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",207
+"51","Ash Canyon","ASH_UAU","Fall","2012","Aeschnidae","Aeschna",NA,"Aeshna",10
+"52","Ash Canyon","ASH_UAU","Fall","2012","Aeschnidae","Anax","longipes","Anax longipes",1
+"53","Ash Canyon","ASH_UAU","Fall","2012","Aeschnidae","Anax",NA,"Anax",NA
+"54","Ash Canyon","ASH_UAU","Fall","2012","Coenagrionidae","Argia",NA,"Argia",654
+"55","Ash Canyon","ASH_UAU","Fall","2012","Dytiscidae","Agabus",NA,"Agabus",3.5
+"56","Ash Canyon","ASH_UAU","Fall","2012","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",3.5
+"57","Ash Canyon","ASH_UAU","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",10
+"58","Ash Canyon","ASH_UAU","Fall","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",7
+"59","Ash Canyon","ASH_UAU","Fall","2012","Haliplidae","Peltodytes",NA,"Peltodytes",8
+"60","Ash Canyon","ASH_UAU","Fall","2012","Hydrophilidae","Anacaena","signaticollis","Anacaena",1
+"61","Ash Canyon","ASH_UAU","Fall","2012","Lestidae","Archilestes","grandis","Archilestes grandis",17
+"62","Ash Canyon","ASH_UAU","Fall","2012","Libellulidae","Libellula",NA,"Libellula",1
+"63","Ash Canyon","ASH_UAU","Fall","2012","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"64","Ash Canyon","ASH_UAU","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",12
+"65","Ash Canyon","ASH_LAS","Spring","2013","Coenagrionidae","Argia",NA,"Argia",124
+"66","Ash Canyon","ASH_LAS","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",2
+"67","Ash Canyon","ASH_LAS","Spring","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",2
+"68","Ash Canyon","ASH_LAS","Spring","2013","Hydraenidae","Hydraena",NA,"Hydraena",1
+"69","Ash Canyon","ASH_LAS","Spring","2013","Hydrophilidae","Anacaena","signaticollis","Anacaena",1
+"70","Ash Canyon","ASH_LAS","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",52
+"71","Ash Canyon","ASH_LAS","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",2
+"72","Ash Canyon","ASH_LAS","Spring","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",5
+"73","Ash Canyon","ASH_LAS","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",13
+"74","Ash Canyon","ASH_SNS","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",1
+"75","Ash Canyon","ASH_UAL","Spring","2013","Aeschnidae","Aeschna","multicolor","Rhionaeschna multicolor",2
+"76","Ash Canyon","ASH_UAL","Spring","2013","Aeschnidae","Anax","longipes","Anax longipes",1
+"77","Ash Canyon","ASH_UAL","Spring","2013","Coenagrionidae","Argia",NA,"Argia",278
+"78","Ash Canyon","ASH_UAL","Spring","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",3
+"79","Ash Canyon","ASH_UAL","Spring","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",2
+"80","Ash Canyon","ASH_UAL","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",27
+"81","Ash Canyon","ASH_UAL","Spring","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",24
+"82","Ash Canyon","ASH_UAL","Spring","2013","Haliplidae","Haliplus",NA,"Haliplus",1
+"83","Ash Canyon","ASH_UAL","Spring","2013","Hydraenidae","Hydraena",NA,"Hydraena",5
+"84","Ash Canyon","ASH_UAL","Spring","2013","Hydrophilidae","Anacaena","signaticollis","Anacaena",8
+"85","Ash Canyon","ASH_UAL","Spring","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",2
+"86","Ash Canyon","ASH_UAL","Spring","2013","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",1
+"87","Ash Canyon","ASH_UAL","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",17
+"88","Ash Canyon","ASH_UAL","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",2
+"89","Ash Canyon","ASH_UAL","Spring","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",2
+"90","Ash Canyon","ASH_UAL","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",12
+"91","Ash Canyon","ASH_UAU","Spring","2013","Coenagrionidae","Argia",NA,"Argia",275
+"92","Ash Canyon","ASH_UAU","Spring","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",1
+"93","Ash Canyon","ASH_UAU","Spring","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",2
+"94","Ash Canyon","ASH_UAU","Spring","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"95","Ash Canyon","ASH_UAU","Spring","2013","Dytiscidae","Rhantus","gutticollis mexicanus","Rhantus gutticollis mexicanus",1
+"96","Ash Canyon","ASH_UAU","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",2
+"97","Ash Canyon","ASH_UAU","Spring","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",2
+"98","Ash Canyon","ASH_UAU","Spring","2013","Hydrophilidae","Anacaena","signaticollis","Anacaena",1
+"99","Ash Canyon","ASH_UAU","Spring","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",8
+"100","Ash Canyon","ASH_UAU","Spring","2013","Hydrophilidae","Enochrus",NA,"Enochrus",2
+"101","Ash Canyon","ASH_UAU","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",9
+"102","Ash Canyon","ASH_UAU","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",1
+"103","Ash Canyon","ASH_UAU","Spring","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"104","Ash Canyon","ASH_UAU","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",6
+"105","Ash Canyon","ASH_LAS","Fall","2013","Coenagrionidae","Argia",NA,"Argia",1186
+"106","Ash Canyon","ASH_LAS","Fall","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",14.5
+"107","Ash Canyon","ASH_LAS","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",2.75
+"108","Ash Canyon","ASH_LAS","Fall","2013","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",2.75
+"109","Ash Canyon","ASH_LAS","Fall","2013","Haliplidae","Peltodytes",NA,"Peltodytes",NA
+"110","Ash Canyon","ASH_LAS","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",18
+"111","Ash Canyon","ASH_LAS","Fall","2013","Hydrophilidae","Anacaena","signaticollis","Anacaena",6
+"112","Ash Canyon","ASH_LAS","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",399
+"113","Ash Canyon","ASH_LAS","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",709
+"114","Ash Canyon","ASH_SNS","Fall","2013","Coenagrionidae","Argia",NA,"Argia",1
+"115","Ash Canyon","ASH_SNS","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",13
+"116","Ash Canyon","ASH_SNS","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",4
+"117","Ash Canyon","ASH_UAIS","Fall","2013","Coenagrionidae","Argia",NA,"Argia",47
+"118","Ash Canyon","ASH_UAIS","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",20
+"119","Ash Canyon","ASH_UAIS","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",1
+"120","Ash Canyon","ASH_UAL","Fall","2013","Aeschnidae","Anax","longipes","Anax longipes",9
+"121","Ash Canyon","ASH_UAL","Fall","2013","Coenagrionidae","Argia",NA,"Argia",247
+"122","Ash Canyon","ASH_UAL","Fall","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",44
+"123","Ash Canyon","ASH_UAL","Fall","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"124","Ash Canyon","ASH_UAL","Fall","2013","Dryopidae","Postelichus",NA,"Postelichus",1
+"125","Ash Canyon","ASH_UAL","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",15
+"126","Ash Canyon","ASH_UAL","Fall","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",3
+"127","Ash Canyon","ASH_UAL","Fall","2013","Haliplidae","Haliplus",NA,"Haliplus",13
+"128","Ash Canyon","ASH_UAL","Fall","2013","Haliplidae","Peltodytes","dispersus","Peltodytes dispersus",6
+"129","Ash Canyon","ASH_UAL","Fall","2013","Hebridae","Merragata","hebroides","Merragata hebroides",1
+"130","Ash Canyon","ASH_UAL","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",11
+"131","Ash Canyon","ASH_UAL","Fall","2013","Hydrophilidae","Anacaena","signaticollis","Anacaena",2
+"132","Ash Canyon","ASH_UAL","Fall","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",1
+"133","Ash Canyon","ASH_UAL","Fall","2013","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",1
+"134","Ash Canyon","ASH_UAL","Fall","2013","Lestidae","Archilestes","grandis","Archilestes grandis",2
+"135","Ash Canyon","ASH_UAL","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",17
+"136","Ash Canyon","ASH_UAL","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",610
+"137","Ash Canyon","ASH_UAU","Fall","2013","Aeschnidae","Aeschna","multicolor","Rhionaeschna multicolor",10
+"138","Ash Canyon","ASH_UAU","Fall","2013","Coenagrionidae","Argia",NA,"Argia",709
+"139","Ash Canyon","ASH_UAU","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",5
+"140","Ash Canyon","ASH_UAU","Fall","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",3
+"141","Ash Canyon","ASH_UAU","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",2
+"142","Ash Canyon","ASH_UAU","Fall","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",1
+"143","Ash Canyon","ASH_UAU","Fall","2013","Haliplidae","Peltodytes",NA,"Peltodytes",NA
+"144","Ash Canyon","ASH_UAU","Fall","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",1
+"145","Ash Canyon","ASH_UAU","Fall","2013","Hydrophilidae","Enochrus","hamiltoni","Enochrus hamiltoni",1
+"146","Ash Canyon","ASH_UAU","Fall","2013","Lestidae","Archilestes","grandis","Archilestes grandis",7
+"147","Ash Canyon","ASH_UAU","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",11
+"148","Ash Canyon","ASH_UAU","Fall","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",6
+"149","Ash Canyon","ASH_UAU","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",59
+"150","Garden Canyon","GaC","Spring","2012","Belostomatidae","Abedus","herberti","Abedus herberti",2
+"151","Garden Canyon","GaC","Spring","2012","Belostomatidae","Lethocerus","medius","Lethocerus medius",1
+"152","Garden Canyon","GaC","Spring","2012","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",2.66666666666667
+"153","Garden Canyon","GaC","Spring","2012","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",1.33333333333333
+"154","Garden Canyon","GaC","Spring","2012","Gerridae","Aquarius","remigis","Aquarius remigis",15
+"155","Garden Canyon","GaC","Spring","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",1
+"156","Garden Canyon","GaC","Spring","2012","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"157","Garden Canyon","GaC","Spring","2012","Veliidae","Microvelia",NA,"Microvelia",3
+"158","Garden Canyon","GaS","Spring","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",3
+"159","Garden Canyon","GaS","Spring","2012","Dryopidae","Helichus",NA,"Helichus",1
+"160","Garden Canyon","GaS","Spring","2012","Dytiscidae","Hydroporinae",NA,"Hydroporinae",1
+"161","Garden Canyon","GaS","Spring","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",15
+"162","Garden Canyon","GaS","Spring","2012","Lestidae","Archilestes","grandis","Archilestes grandis",1
+"163","Garden Canyon","GaS","Spring","2012","Libellulidae","Pantala","hymenaea","Pantala hymenaea",1
+"164","Garden Canyon","GaS","Spring","2012","Notonectidae","Notonecta","lobata","Notonecta lobata",2
+"165","Garden Canyon","GaS","Spring","2012","Veliidae","Microvelia",NA,"Microvelia",31
+"166","Garden Canyon","GaS","Spring","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",19
+"167","Garden Canyon","GaW","Spring","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",3
+"168","Garden Canyon","GaW","Spring","2012","Belostomatidae","Abedus","herberti","Abedus herberti",1
+"169","Garden Canyon","GaW","Spring","2012","Coenagrionidae","Argia",NA,"Argia",1
+"170","Garden Canyon","GaW","Spring","2012","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",2
+"171","Garden Canyon","GaW","Spring","2012","Dytiscidae","Agabus",NA,"Agabus",1
+"172","Garden Canyon","GaW","Spring","2012","Elmidae","Heterelmis",NA,"Heterelmis",9
+"173","Garden Canyon","GaW","Spring","2012","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"174","Garden Canyon","GaW","Spring","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",1
+"175","Garden Canyon","GaW","Spring","2012","Nepidae","Curicta","pronotata","Curicta pronotata",1
+"176","Garden Canyon","GaW","Spring","2012","Veliidae","Microvelia",NA,"Microvelia",1
+"177","Garden Canyon","GaW","Spring","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",1
+"178","Garden Canyon","GaC","Fall","2012","Coenagrionidae","Argia",NA,"Argia",39
+"179","Garden Canyon","GaC","Fall","2012","Dryopidae","Helichus",NA,"Helichus",NA
+"180","Garden Canyon","GaC","Fall","2012","Dryopidae","Postelichus",NA,"Postelichus",NA
+"181","Garden Canyon","GaC","Fall","2012","Dytiscidae","Agabus",NA,"Agabus",3
+"182","Garden Canyon","GaC","Fall","2012","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",1
+"183","Garden Canyon","GaC","Fall","2012","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"184","Garden Canyon","GaC","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",3
+"185","Garden Canyon","GaC","Fall","2012","Hydraenidae","Hydraena",NA,"Hydraena",3
+"186","Garden Canyon","GaC","Fall","2012","Lestidae","Archilestes","grandis","Archilestes grandis",1
+"187","Garden Canyon","GaC","Fall","2012","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",5
+"188","Garden Canyon","GaC","Fall","2012","Notonectidae","Notonecta","lobata","Notonecta lobata",3
+"189","Garden Canyon","GaC","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",9
+"190","Garden Canyon","GaCASP","Fall","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",3
+"191","Garden Canyon","GaCASP","Fall","2012","Coenagrionidae","Argia",NA,"Argia",37
+"192","Garden Canyon","GaCASP","Fall","2012","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",291
+"193","Garden Canyon","GaCASP","Fall","2012","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",3
+"194","Garden Canyon","GaCASP","Fall","2012","Elmidae","Heterelmis",NA,"Heterelmis",19
+"195","Garden Canyon","GaCASP","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",25
+"196","Garden Canyon","GaCASP","Fall","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",1
+"197","Garden Canyon","GaCASP","Fall","2012","Lestidae","Archilestes","grandis","Archilestes grandis",2
+"198","Garden Canyon","GaCASP","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",16
+"199","Garden Canyon","GaCASP","Fall","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",1
+"200","Garden Canyon","GaMCCH","Fall","2012","Belostomatidae","Abedus","herberti","Abedus herberti",9
+"201","Garden Canyon","GaMCCH","Fall","2012","Coenagrionidae","Argia",NA,"Argia",25
+"202","Garden Canyon","GaMCCH","Fall","2012","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",7
+"203","Garden Canyon","GaMCCH","Fall","2012","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",1
+"204","Garden Canyon","GaMCCH","Fall","2012","Dytiscidae","Uvarus",NA,"Uvarus",1
+"205","Garden Canyon","GaMCCH","Fall","2012","Elmidae","Heterelmis",NA,"Heterelmis",1
+"206","Garden Canyon","GaMCCH","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",49
+"207","Garden Canyon","GaMCCH","Fall","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",1
+"208","Garden Canyon","GaMCCH","Fall","2012","Helophoridae","Helophorus",NA,"Helophorus",1
+"209","Garden Canyon","GaMCCH","Fall","2012","Lestidae","Archilestes","grandis","Archilestes grandis",2
+"210","Garden Canyon","GaMCCH","Fall","2012","Libellulidae","Libellula","saturata","Libellula saturata",64
+"211","Garden Canyon","GaMCCH","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",999
+"212","Garden Canyon","GaMCCH","Fall","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",1
+"213","Garden Canyon","GaMCSY","Fall","2012","Dytiscidae","Agabus",NA,"Agabus",6.31578947368421
+"214","Garden Canyon","GaMCSY","Fall","2012","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",3.15789473684211
+"215","Garden Canyon","GaMCSY","Fall","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",9.47368421052632
+"216","Garden Canyon","GaMCSY","Fall","2012","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",1.05263157894737
+"217","Garden Canyon","GaMCSY","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"218","Garden Canyon","GaMCSY","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",1
+"219","Garden Canyon","GaMCT","Fall","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",2
+"220","Garden Canyon","GaMCT","Fall","2012","Coenagrionidae","Argia",NA,"Argia",240
+"221","Garden Canyon","GaMCT","Fall","2012","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",56
+"222","Garden Canyon","GaMCT","Fall","2012","Dryopidae","Helichus","triangularis","Helichus triangularis",3
+"223","Garden Canyon","GaMCT","Fall","2012","Elmidae","Heterelmis",NA,"Heterelmis",83
+"224","Garden Canyon","GaMCT","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",1
+"225","Garden Canyon","GaMCT","Fall","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",3
+"226","Garden Canyon","GaNF","Fall","2012","Aeschnidae","Anax","longipes","Anax longipes",1
+"227","Garden Canyon","GaNF","Fall","2012","Coenagrionidae","Argia",NA,"Argia",3
+"228","Garden Canyon","GaNF","Fall","2012","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",10
+"229","Garden Canyon","GaNF","Fall","2012","Corixidae","Graptocorixa","abdominalis","Graptocorixa abdominalis",2
+"230","Garden Canyon","GaNF","Fall","2012","Dryopidae","Postelichus","confluentus","Postelichus confluentus",4
+"231","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",1.11538461538462
+"232","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",4.46153846153846
+"233","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Laccophilus","maculosus","Laccophilus maculosus",1.11538461538462
+"234","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",1.11538461538462
+"235","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Laccophilus","pictus","Laccophilus pictus",4.46153846153846
+"236","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Liodessus",NA,"Liodessus",1.11538461538462
+"237","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Neoclypeodytes","fryi","Neoclypeodytes fryi",3.34615384615385
+"238","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",2.23076923076923
+"239","Garden Canyon","GaNF","Fall","2012","Dytiscidae","Uvarus",NA,"Uvarus",10.0384615384615
+"240","Garden Canyon","GaNF","Fall","2012","Hydraenidae","Gymnochthebius",NA,"Gymnochthebius",1
+"241","Garden Canyon","GaNF","Fall","2012","Hydrophilidae","Berosus","punctatissimus","Berosus punctatissimus",3
+"242","Garden Canyon","GaNF","Fall","2012","Hydrophilidae","Berosus","salvini","Berosus salvini",12
+"243","Garden Canyon","GaNF","Fall","2012","Hydrophilidae","Laccobius",NA,"Laccobius",1
+"244","Garden Canyon","GaNF","Fall","2012","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",1
+"245","Garden Canyon","GaNF","Fall","2012","Hydrophilidae","Tropisternus","brevicollis","Tropisternus brevicollis",1
+"246","Garden Canyon","GaNF","Fall","2012","Libellulidae","Libellula","saturata","Libellula saturata",2
+"247","Garden Canyon","GaNF","Fall","2012","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",2
+"248","Garden Canyon","GaNF","Fall","2012","Mesoveliidae","Mesovelia","mulsanti","Mesovelia mulsanti",2
+"249","Garden Canyon","GaNF","Fall","2012","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",7
+"250","Garden Canyon","GaNF","Fall","2012","Notonectidae","Buenoa","arizonis","Buenoa arizonis",5.33333333333333
+"251","Garden Canyon","GaNF","Fall","2012","Notonectidae","Buenoa","scimitra","Buenoa scimitra",5.33333333333333
+"252","Garden Canyon","GaNF","Fall","2012","Notonectidae","Notonecta","lobata","Notonecta lobata",5.33333333333333
+"253","Garden Canyon","GaNF","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",3
+"254","Garden Canyon","GaS","Fall","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",8
+"255","Garden Canyon","GaS","Fall","2012","Belostomatidae","Abedus","herberti","Abedus herberti",2
+"256","Garden Canyon","GaS","Fall","2012","Coenagrionidae","Argia",NA,"Argia",2
+"257","Garden Canyon","GaS","Fall","2012","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",4
+"258","Garden Canyon","GaS","Fall","2012","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",2
+"259","Garden Canyon","GaS","Fall","2012","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",4
+"260","Garden Canyon","GaS","Fall","2012","Dytiscidae","Uvarus",NA,"Uvarus",3
+"261","Garden Canyon","GaS","Fall","2012","Elmidae","Microcylloepus",NA,"Microcylloepus",1
+"262","Garden Canyon","GaS","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",16
+"263","Garden Canyon","GaS","Fall","2012","Hydraenidae","Hydraena",NA,"Hydraena",7
+"264","Garden Canyon","GaS","Fall","2012","Lestidae","Archilestes","grandis","Archilestes grandis",2
+"265","Garden Canyon","GaS","Fall","2012","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"266","Garden Canyon","GaS","Fall","2012","Notonectidae","Notonecta","lobata","Notonecta lobata",2
+"267","Garden Canyon","GaS","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",42
+"268","Garden Canyon","GaS","Fall","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",86
+"269","Garden Canyon","GaUP","Fall","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",58
+"270","Garden Canyon","GaUP","Fall","2012","Belostomatidae","Abedus","herberti","Abedus herberti",13
+"271","Garden Canyon","GaUP","Fall","2012","Belostomatidae","Lethocerus","medius","Lethocerus medius",3
+"272","Garden Canyon","GaUP","Fall","2012","Calopterygidae","Hetaerina",NA,"Hetaerina",35
+"273","Garden Canyon","GaUP","Fall","2012","Coenagrionidae","Argia",NA,"Argia",55
+"274","Garden Canyon","GaUP","Fall","2012","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",1
+"275","Garden Canyon","GaUP","Fall","2012","Dryopidae","Helichus","lithophilus","Helichus lithophilus",9
+"276","Garden Canyon","GaUP","Fall","2012","Dryopidae","Helichus","triangularis","Helichus triangularis",12
+"277","Garden Canyon","GaUP","Fall","2012","Dryopidae","Helichus","triangularis","Helichus triangularis",10
+"278","Garden Canyon","GaUP","Fall","2012","Dryopidae","Helichus",NA,"Helichus",NA
+"279","Garden Canyon","GaUP","Fall","2012","Dryopidae","Postelichus","confluentus","Postelichus confluentus",4
+"280","Garden Canyon","GaUP","Fall","2012","Dryopidae","Postelichus",NA,"Postelichus",NA
+"281","Garden Canyon","GaUP","Fall","2012","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",2
+"282","Garden Canyon","GaUP","Fall","2012","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",36
+"283","Garden Canyon","GaUP","Fall","2012","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",2
+"284","Garden Canyon","GaUP","Fall","2012","Dytiscidae","Uvarus",NA,"Uvarus",11
+"285","Garden Canyon","GaUP","Fall","2012","Elmidae","Heterelmis",NA,"Heterelmis",59.6666666666667
+"286","Garden Canyon","GaUP","Fall","2012","Elmidae","Huleechius","marroni","Huleechius marroni",2.33333333333333
+"287","Garden Canyon","GaUP","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"288","Garden Canyon","GaUP","Fall","2012","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",2
+"289","Garden Canyon","GaUP","Fall","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",2
+"290","Garden Canyon","GaUP","Fall","2012","Hydraenidae","Hydraena",NA,"Hydraena",15
+"291","Garden Canyon","GaUP","Fall","2012","Hydrophilidae","Hydrophilus",NA,"Hydrophilus",1
+"292","Garden Canyon","GaUP","Fall","2012","Nepidae","Curicta","pronotata","Curicta pronotata",1
+"293","Garden Canyon","GaUP","Fall","2012","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",8
+"294","Garden Canyon","GaUP","Fall","2012","Notonectidae","Notonecta","lobata","Notonecta lobata",4
+"295","Garden Canyon","GaUP","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",36
+"296","Garden Canyon","GaUP","Fall","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",27
+"297","Garden Canyon","GaW","Fall","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",11
+"298","Garden Canyon","GaW","Fall","2012","Belostomatidae","Abedus","herberti","Abedus herberti",3
+"299","Garden Canyon","GaW","Fall","2012","Calopterygidae","Hetaerina",NA,"Hetaerina",1
+"300","Garden Canyon","GaW","Fall","2012","Coenagrionidae","Argia",NA,"Argia",27
+"301","Garden Canyon","GaW","Fall","2012","Dryopidae","Helichus","triangularis","Helichus triangularis",2
+"302","Garden Canyon","GaW","Fall","2012","Dryopidae","Helichus",NA,"Helichus",NA
+"303","Garden Canyon","GaW","Fall","2012","Dytiscidae","Agabus",NA,"Agabus",1
+"304","Garden Canyon","GaW","Fall","2012","Dytiscidae","Uvarus",NA,"Uvarus",1
+"305","Garden Canyon","GaW","Fall","2012","Elmidae","Heterelmis",NA,"Heterelmis",19
+"306","Garden Canyon","GaW","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"307","Garden Canyon","GaW","Fall","2012","Hydraenidae","Hydraena",NA,"Hydraena",3
+"308","Garden Canyon","GaW","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",13
+"309","Garden Canyon","GaW","Fall","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",12
+"310","Garden Canyon","GaC","Spring","2013","Coenagrionidae","Argia",NA,"Argia",10
+"311","Garden Canyon","GaC","Spring","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",15
+"312","Garden Canyon","GaC","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",6
+"313","Garden Canyon","GaC","Spring","2013","Hydraenidae","Hydraena",NA,"Hydraena",1
+"314","Garden Canyon","GaC","Spring","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",1
+"315","Garden Canyon","GaC","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",5
+"316","Garden Canyon","GaC","Spring","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",1
+"317","Garden Canyon","GaMCCH","Spring","2013","Belostomatidae","Abedus","herberti","Abedus herberti",4
+"318","Garden Canyon","GaMCCH","Spring","2013","Coenagrionidae","Argia",NA,"Argia",6
+"319","Garden Canyon","GaMCCH","Spring","2013","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",1
+"320","Garden Canyon","GaMCCH","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",9
+"321","Garden Canyon","GaMCCH","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",3
+"322","Garden Canyon","GaMCSY","Spring","2013","Hydraenidae","Hydraena",NA,"Hydraena",1
+"323","Garden Canyon","GaMCT","Spring","2013","Coenagrionidae","Argia",NA,"Argia",19
+"324","Garden Canyon","GaMCT","Spring","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",15
+"325","Garden Canyon","GaMCT","Spring","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",2
+"326","Garden Canyon","GaMCT","Spring","2013","Elmidae","Heterelmis",NA,"Heterelmis",96
+"327","Garden Canyon","GaMCT","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",1
+"328","Garden Canyon","GaNF","Spring","2013","Aeschnidae","Anax","longipes","Anax longipes",1
+"329","Garden Canyon","GaNF","Spring","2013","Coenagrionidae","Argia",NA,"Argia",41
+"330","Garden Canyon","GaNF","Spring","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",2
+"331","Garden Canyon","GaNF","Spring","2013","Dryopidae","Helichus",NA,"Helichus",1
+"332","Garden Canyon","GaNF","Spring","2013","Dryopidae","Postelichus",NA,"Postelichus",1
+"333","Garden Canyon","GaNF","Spring","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",41
+"334","Garden Canyon","GaNF","Spring","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",11
+"335","Garden Canyon","GaNF","Spring","2013","Dytiscidae","Uvarus",NA,"Uvarus",3
+"336","Garden Canyon","GaNF","Spring","2013","Hydrophilidae","Berosus","punctatissimus","Berosus punctatissimus",23
+"337","Garden Canyon","GaNF","Spring","2013","Hydrophilidae","Berosus","salvini","Berosus salvini",36
+"338","Garden Canyon","GaNF","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",7
+"339","Garden Canyon","GaNF","Spring","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",8
+"340","Garden Canyon","GaNF","Spring","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"341","Garden Canyon","GaNF","Spring","2013","Notonectidae","Buenoa","scimitra","Buenoa scimitra",1
+"342","Garden Canyon","GaS","Spring","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",7
+"343","Garden Canyon","GaS","Spring","2013","Coenagrionidae","Argia",NA,"Argia",1
+"344","Garden Canyon","GaS","Spring","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",1
+"345","Garden Canyon","GaS","Spring","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",12
+"346","Garden Canyon","GaS","Spring","2013","Elmidae","Heterelmis",NA,"Heterelmis",1
+"347","Garden Canyon","GaS","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",5
+"348","Garden Canyon","GaS","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",1
+"349","Garden Canyon","GaS","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",53
+"350","Garden Canyon","GaS","Spring","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",6
+"351","Garden Canyon","GaW","Spring","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",15
+"352","Garden Canyon","GaW","Spring","2013","Coenagrionidae","Argia",NA,"Argia",15
+"353","Garden Canyon","GaW","Spring","2013","Elmidae","Heterelmis",NA,"Heterelmis",10
+"354","Garden Canyon","GaW","Spring","2013","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",1
+"355","Garden Canyon","GaW","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",2
+"356","Garden Canyon","GaW","Spring","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",18
+"357","Garden Canyon","GaC","Fall","2013","Calopterygidae","Hetaerina",NA,"Hetaerina",1
+"358","Garden Canyon","GaC","Fall","2013","Coenagrionidae","Argia",NA,"Argia",4
+"359","Garden Canyon","GaC","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",5
+"360","Garden Canyon","GaC","Fall","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",3
+"361","Garden Canyon","GaCASP","Fall","2013","Coenagrionidae","Argia",NA,"Argia",5
+"362","Garden Canyon","GaCASP","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",120
+"363","Garden Canyon","GaCASP","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",3
+"364","Garden Canyon","GaCASP","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"365","Garden Canyon","GaCASP","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",3
+"366","Garden Canyon","GaCASP","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",5
+"367","Garden Canyon","GaCASP","Fall","2013","Lestidae","Archilestes","grandis","Archilestes grandis",1
+"368","Garden Canyon","GaCASP","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",2
+"369","Garden Canyon","GaMCCH","Fall","2013","Coenagrionidae","Argia",NA,"Argia",1
+"370","Garden Canyon","GaMCCH","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",58
+"371","Garden Canyon","GaMCCH","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"372","Garden Canyon","GaMCCH","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",2
+"373","Garden Canyon","GaMCCH","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",1
+"374","Garden Canyon","GaMCSY","Fall","2013","Coenagrionidae","Argia",NA,"Argia",1
+"375","Garden Canyon","GaMCT","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",1
+"376","Garden Canyon","GaMCT","Fall","2013","Coenagrionidae","Argia",NA,"Argia",36
+"377","Garden Canyon","GaMCT","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",3
+"378","Garden Canyon","GaMCT","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"379","Garden Canyon","GaMCT","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",1
+"380","Garden Canyon","GaMCT","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",21
+"381","Garden Canyon","GaMCT","Fall","2013","Hebridae","Hebrus",NA,"Hebrus",1
+"382","Garden Canyon","GaNF","Fall","2013","Coenagrionidae","Argia",NA,"Argia",11
+"383","Garden Canyon","GaNF","Fall","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",3
+"384","Garden Canyon","GaNF","Fall","2013","Corixidae","Graptocorixa","abdominalis","Graptocorixa abdominalis",4
+"385","Garden Canyon","GaNF","Fall","2013","Dytiscidae","Liodessus",NA,"Liodessus",1.05714285714286
+"386","Garden Canyon","GaNF","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",32.7714285714286
+"387","Garden Canyon","GaNF","Fall","2013","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",2.11428571428571
+"388","Garden Canyon","GaNF","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",1.05714285714286
+"389","Garden Canyon","GaNF","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",2
+"390","Garden Canyon","GaNF","Fall","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",1
+"391","Garden Canyon","GaNF","Fall","2013","Hydrophilidae","Berosus","punctatissimus","Berosus punctatissimus",13
+"392","Garden Canyon","GaNF","Fall","2013","Hydrophilidae","Berosus","rugulosus","Berosus rugulosus",1
+"393","Garden Canyon","GaNF","Fall","2013","Hydrophilidae","Berosus","salvini","Berosus salvini",10
+"394","Garden Canyon","GaNF","Fall","2013","Hydrophilidae","Helochares",NA,"Helochares",1
+"395","Garden Canyon","GaNF","Fall","2013","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",3
+"396","Garden Canyon","GaNF","Fall","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",3
+"397","Garden Canyon","GaNF","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",2
+"398","Garden Canyon","GaNF","Fall","2013","Notonectidae","Buenoa",NA,"Buenoa",2
+"399","Garden Canyon","GaNF","Fall","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",16
+"400","Garden Canyon","GaS","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",13
+"401","Garden Canyon","GaS","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",1
+"402","Garden Canyon","GaS","Fall","2013","Calopterygidae","Hetaerina",NA,"Hetaerina",1
+"403","Garden Canyon","GaS","Fall","2013","Coenagrionidae","Argia",NA,"Argia",5
+"404","Garden Canyon","GaS","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",2
+"405","Garden Canyon","GaS","Fall","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",2
+"406","Garden Canyon","GaS","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",8
+"407","Garden Canyon","GaS","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",2
+"408","Garden Canyon","GaS","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",19
+"409","Garden Canyon","GaS","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",13
+"410","Garden Canyon","GaUP","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",7
+"411","Garden Canyon","GaUP","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",2
+"412","Garden Canyon","GaUP","Fall","2013","Calopterygidae","Hetaerina",NA,"Hetaerina",3
+"413","Garden Canyon","GaUP","Fall","2013","Coenagrionidae","Argia",NA,"Argia",11
+"414","Garden Canyon","GaUP","Fall","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"415","Garden Canyon","GaUP","Fall","2013","Dytiscidae","Laccophilus","pictus","Laccophilus pictus",1
+"416","Garden Canyon","GaUP","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",5
+"417","Garden Canyon","GaUP","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",14
+"418","Garden Canyon","GaUP","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",3
+"419","Garden Canyon","GaUP","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",10
+"420","Garden Canyon","GaW","Fall","2013","Coenagrionidae","Argia",NA,"Argia",4
+"421","Garden Canyon","GaW","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",5
+"422","Garden Canyon","GaW","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",2
+"423","Great Falls Basin","GFB_ARR","Spring","2012","Coenagrionidae","Argia",NA,"Argia",21
+"424","Great Falls Basin","GFB_ARR","Spring","2012","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",2
+"425","Great Falls Basin","GFB_ARR","Spring","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",3
+"426","Great Falls Basin","GFB_ARR","Spring","2012","Gerridae","Aquarius","remigis","Aquarius remigis",16
+"427","Great Falls Basin","GFB_BFF","Spring","2012","Dytiscidae","Agabus","perplexus","Agabus perplexus",9
+"428","Great Falls Basin","GFB_BFF","Spring","2012","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",1
+"429","Great Falls Basin","GFB_MF","Spring","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",2
+"430","Great Falls Basin","GFB_MF","Spring","2012","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",2
+"431","Great Falls Basin","GFB_SSA","Spring","2012","Dytiscidae","Agabus","perplexus","Agabus perplexus",1
+"432","Great Falls Basin","GFB_SSA","Spring","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",3
+"433","Great Falls Basin","GFB_SSA","Spring","2012","Veliidae","Macrovelia","hornii","Macrovelia hornii",3
+"434","Great Falls Basin","GFB_TRL","Spring","2012","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",1
+"435","Great Falls Basin","GFB_AFF","Fall","2012","Dytiscidae","Ilybiosoma",NA,"Ilybiosoma",NA
+"436","Great Falls Basin","GFB_AFF","Fall","2012","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",1
+"437","Great Falls Basin","GFB_AFF","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",16
+"438","Great Falls Basin","GFB_AFF","Fall","2012","Hydraenidae","Ochthebius",NA,"Ochthebius",1
+"439","Great Falls Basin","GFB_AFF","Fall","2012","Libellulidae","Libellula","saturata","Libellula saturata",1
+"440","Great Falls Basin","GFB_AFF","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",26
+"441","Great Falls Basin","GFB_ARR","Fall","2012","Aeschnidae","Anax","longipes","Anax longipes",1
+"442","Great Falls Basin","GFB_ARR","Fall","2012","Coenagrionidae","Argia",NA,"Argia",424
+"443","Great Falls Basin","GFB_ARR","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",32
+"444","Great Falls Basin","GFB_ARR","Fall","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",NA
+"445","Great Falls Basin","GFB_ARR","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",7
+"446","Great Falls Basin","GFB_ARR","Fall","2012","Hydraenidae","Ochthebius",NA,"Ochthebius",35
+"447","Great Falls Basin","GFB_ARR","Fall","2012","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",2
+"448","Great Falls Basin","GFB_ARR","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",4
+"449","Great Falls Basin","GFB_BFF","Fall","2012","Dytiscidae","Ilybiosoma","perplexum","Ilybiosoma perplexum",4
+"450","Great Falls Basin","GFB_BFF","Fall","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",NA
+"451","Great Falls Basin","GFB_BFF","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",68
+"452","Great Falls Basin","GFB_BFF","Fall","2012","Libellulidae","Libellula","saturata","Libellula saturata",9
+"453","Great Falls Basin","GFB_BFF","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",2
+"454","Great Falls Basin","GFB_BUU","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",7
+"455","Great Falls Basin","GFB_MAIN","Fall","2012","Aeschnidae","Rhionaeschna","californica","Rhionaeschna californica",3
+"456","Great Falls Basin","GFB_MAIN","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",152
+"457","Great Falls Basin","GFB_MAIN","Fall","2012","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",1
+"458","Great Falls Basin","GFB_MAIN","Fall","2012","Libellulidae","Libellula","saturata","Libellula saturata",19
+"459","Great Falls Basin","GFB_MAIN","Fall","2012","Libellulidae","Pantala","hymenaea","Pantala hymenaea",1
+"460","Great Falls Basin","GFB_MAIN","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",115
+"461","Great Falls Basin","GFB_SSA","Fall","2012","Coenagrionidae","Argia",NA,"Argia",1
+"462","Great Falls Basin","GFB_UU","Fall","2012","Dytiscidae","Ilybiosoma",NA,"Ilybiosoma",NA
+"463","Great Falls Basin",NA,"Fall","2012","Dytiscidae","Ilybiosoma","perplexum","Ilybiosoma perplexum",4
+"464","Great Falls Basin",NA,"Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",35.4761904761905
+"465","Great Falls Basin",NA,"Fall","2012","Hydraenidae","Ochthebius",NA,"Ochthebius",1
+"466","Great Falls Basin","GFB_AFF","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",8
+"467","Great Falls Basin","GFB_AFF","Spring","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",1
+"468","Great Falls Basin","GFB_ARR","Spring","2013","Coenagrionidae","Argia",NA,"Argia",73
+"469","Great Falls Basin","GFB_ARR","Spring","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",3
+"470","Great Falls Basin","GFB_ARR","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",101
+"471","Great Falls Basin","GFB_ARR","Spring","2013","Hydraenidae","Ochthebius",NA,"Ochthebius",2
+"472","Great Falls Basin","GFB_ARR","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",164
+"473","Great Falls Basin","GFB_BFF","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",2
+"474","Great Falls Basin","GFB_BFF","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",2
+"475","Great Falls Basin","GFB_MAIN","Spring","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",6
+"476","Great Falls Basin","GFB_MAIN","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",87
+"477","Great Falls Basin","GFB_MAIN","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",216
+"478","Great Falls Basin","GFB_MAIN","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",7
+"479","Great Falls Basin","GFB_MAIN","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",5
+"480","Great Falls Basin","GFB_SSA","Spring","2013","Dytiscidae","Agabus","perplexus","Agabus perplexus",2
+"481","Great Falls Basin","GFB_SSA","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"482","Great Falls Basin","GFB_TRL","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"483","Great Falls Basin","GFB_TRL","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",16
+"484","Great Falls Basin","GFB_AFF","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",12
+"485","Great Falls Basin","GFB_AFF","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",14
+"486","Great Falls Basin","GFB_AFF","Fall","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",4
+"487","Great Falls Basin","GFB_AFF","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",1
+"488","Great Falls Basin","GFB_UU","Fall","2013","Dytiscidae","Agabus",NA,"Agabus",1
+"489","Great Falls Basin","GFB_UU","Fall","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",4
+"490","Huachuca Canyon","HuG","Spring","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",19
+"491","Huachuca Canyon","HuG","Spring","2012","Belostomatidae","Abedus","herberti","Abedus herberti",5
+"492","Huachuca Canyon","HuG","Spring","2012","Coenagrionidae","Argia",NA,"Argia",10
+"493","Huachuca Canyon","HuG","Spring","2012","Dryopidae","Helichus",NA,"Helichus",NA
+"494","Huachuca Canyon","HuG","Spring","2012","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"495","Huachuca Canyon","HuG","Spring","2012","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",21
+"496","Huachuca Canyon","HuG","Spring","2012","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",1
+"497","Huachuca Canyon","HuG","Spring","2012","Dytiscidae","Uvarus",NA,"Uvarus",7
+"498","Huachuca Canyon","HuG","Spring","2012","Elmidae","Heterelmis",NA,"Heterelmis",1
+"499","Huachuca Canyon","HuG","Spring","2012","Gerridae","Aquarius","remigis","Aquarius remigis",9
+"500","Huachuca Canyon","HuG","Spring","2012","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",3
+"501","Huachuca Canyon","HuG","Spring","2012","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",9
+"502","Huachuca Canyon","HuG","Spring","2012","Hydraenidae","Hydraena",NA,"Hydraena",1
+"503","Huachuca Canyon","HuG","Spring","2012","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",5
+"504","Huachuca Canyon","HuG","Spring","2012","Notonectidae","Notonecta","lobata","Notonecta lobata",5
+"505","Huachuca Canyon","HuG","Spring","2012","Veliidae","Microvelia",NA,"Microvelia",30
+"506","Huachuca Canyon","HuG","Spring","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",14
+"507","Huachuca Canyon","HuTU","Spring","2012","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",4
+"508","Huachuca Canyon","HuTU","Spring","2012","Belostomatidae","Abedus","herberti","Abedus herberti",3
+"509","Huachuca Canyon","HuTU","Spring","2012","Coenagrionidae","Argia",NA,"Argia",6
+"510","Huachuca Canyon","HuTU","Spring","2012","Dryopidae","Helichus","triangularis","Helichus triangularis",3
+"511","Huachuca Canyon","HuTU","Spring","2012","Dryopidae","Helichus",NA,"Helichus",NA
+"512","Huachuca Canyon","HuTU","Spring","2012","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",1
+"513","Huachuca Canyon","HuTU","Spring","2012","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",1
+"514","Huachuca Canyon","HuTU","Spring","2012","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",2
+"515","Huachuca Canyon","HuTU","Spring","2012","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",5
+"516","Huachuca Canyon","HuTU","Spring","2012","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",1
+"517","Huachuca Canyon","HuTU","Spring","2012","Dytiscidae","Uvarus",NA,"Uvarus",14
+"518","Huachuca Canyon","HuTU","Spring","2012","Elmidae","Heterelmis",NA,"Heterelmis",1
+"519","Huachuca Canyon","HuTU","Spring","2012","Gerridae","Aquarius","remigis","Aquarius remigis",2
+"520","Huachuca Canyon","HuTU","Spring","2012","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",1
+"521","Huachuca Canyon","HuTU","Spring","2012","Hydraenidae","Hydraena",NA,"Hydraena",1
+"522","Huachuca Canyon","HuTU","Spring","2012","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"523","Huachuca Canyon","HuTU","Spring","2012","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",5
+"524","Huachuca Canyon","HuTU","Spring","2012","Notonectidae","Buenoa",NA,"Buenoa",3
+"525","Huachuca Canyon","HuTU","Spring","2012","Veliidae","Microvelia",NA,"Microvelia",183
+"526","Huachuca Canyon","HuTU","Spring","2012","Veliidae","Rhagovelia",NA,"Rhagovelia",46
+"527","Huachuca Canyon","HuBR","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",4
+"528","Huachuca Canyon","HuBR","Fall","2013","Coenagrionidae","Argia",NA,"Argia",6
+"529","Huachuca Canyon","HuBR","Fall","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",1
+"530","Huachuca Canyon","HuBR","Fall","2013","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",1
+"531","Huachuca Canyon","HuBR","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",2
+"532","Huachuca Canyon","HuBR","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",7
+"533","Huachuca Canyon","HuBR","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",1
+"534","Huachuca Canyon","HuBR","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"535","Huachuca Canyon","HuBR","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",27
+"536","Huachuca Canyon","HuG","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",1
+"537","Huachuca Canyon","HuG","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",6
+"538","Huachuca Canyon","HuG","Fall","2013","Coenagrionidae","Argia",NA,"Argia",170
+"539","Huachuca Canyon","HuG","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",2
+"540","Huachuca Canyon","HuG","Fall","2013","Dryopidae","Helichus","suturalis","Helichus suturalis",5
+"541","Huachuca Canyon","HuG","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",18
+"542","Huachuca Canyon","HuG","Fall","2013","Dryopidae","Postelichus","confluentus","Postelichus confluentus",9
+"543","Huachuca Canyon","HuG","Fall","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",1
+"544","Huachuca Canyon","HuG","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",4
+"545","Huachuca Canyon","HuG","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",9
+"546","Huachuca Canyon","HuG","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",7
+"547","Huachuca Canyon","HuG","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",8
+"548","Huachuca Canyon","HuG","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",3
+"549","Huachuca Canyon","HuG","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",16
+"550","Huachuca Canyon","HuG","Fall","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"551","Huachuca Canyon","HuG","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",157
+"552","Huachuca Canyon","HuG","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",9
+"553","Huachuca Canyon","HuNF","Fall","2013","Coenagrionidae","Argia",NA,"Argia",4
+"554","Huachuca Canyon","HuNF","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",2
+"555","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",8
+"556","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Laccophilus","horni","Laccophilus horni",2
+"557","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",1.125
+"558","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Laccophilus","salvini","Laccophilus salvini",1.125
+"559","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",3.25
+"560","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",11.275
+"561","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Stictotarsus","corvinus","Stictotarsus corvinus",2.9
+"562","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",1.125
+"563","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",25.2
+"564","Huachuca Canyon","HuNF","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",7
+"565","Huachuca Canyon","HuNF","Fall","2013","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",14
+"566","Huachuca Canyon","HuNF","Fall","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",3
+"567","Huachuca Canyon","HuNF","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",1
+"568","Huachuca Canyon","HuNF","Fall","2013","Hydrophilidae","Berosus","punctatissimus","Berosus punctatissimus",3
+"569","Huachuca Canyon","HuNF","Fall","2013","Hydrophilidae","Berosus","salvini","Berosus salvini",3
+"570","Huachuca Canyon","HuNF","Fall","2013","Lestidae","Archilestes","grandis","Archilestes grandis",10
+"571","Huachuca Canyon","HuNF","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",2
+"572","Huachuca Canyon","HuNF","Fall","2013","Notonectidae","Buenoa","arizonis","Buenoa arizonis",1
+"573","Huachuca Canyon","HuNF","Fall","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",4
+"574","Huachuca Canyon","HuNF","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",55
+"575","Huachuca Canyon","HuTL","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",9
+"576","Huachuca Canyon","HuTL","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",5
+"577","Huachuca Canyon","HuTL","Fall","2013","Coenagrionidae","Argia",NA,"Argia",101
+"578","Huachuca Canyon","HuTL","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",3
+"579","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Helichus","suturalis","Helichus suturalis",9
+"580","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",12
+"581","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"582","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Postelichus","confluentus","Postelichus confluentus",4
+"583","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Postelichus",NA,"Postelichus",NA
+"584","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",2.11764705882353
+"585","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",1.5
+"586","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",2.11764705882353
+"587","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Neoclypeodytes","fryi","Neoclypeodytes fryi",3.17647058823529
+"588","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",2
+"589","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",13.0882352941176
+"590","Huachuca Canyon","HuTL","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",33
+"591","Huachuca Canyon","HuTL","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",6
+"592","Huachuca Canyon","HuTL","Fall","2013","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",2
+"593","Huachuca Canyon","HuTL","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",3
+"594","Huachuca Canyon","HuTL","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"595","Huachuca Canyon","HuTL","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",68
+"596","Huachuca Canyon","HuTL","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",207
+"597","Huachuca Canyon","HuTU","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",1
+"598","Huachuca Canyon","HuTU","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",5
+"599","Huachuca Canyon","HuTU","Fall","2013","Coenagrionidae","Argia",NA,"Argia",212
+"600","Huachuca Canyon","HuTU","Fall","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",2
+"601","Huachuca Canyon","HuTU","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",5
+"602","Huachuca Canyon","HuTU","Fall","2013","Dryopidae","Helichus","suturalis","Helichus suturalis",5
+"603","Huachuca Canyon","HuTU","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",38
+"604","Huachuca Canyon","HuTU","Fall","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"605","Huachuca Canyon","HuTU","Fall","2013","Dryopidae","Postelichus",NA,"Postelichus",NA
+"606","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",3
+"607","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Laccophilus","pictus","Laccophilus pictus",1
+"608","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Neoclypeodytes","fryi","Neoclypeodytes fryi",1
+"609","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"610","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",1
+"611","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",2
+"612","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",1
+"613","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",45
+"614","Huachuca Canyon","HuTU","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",7
+"615","Huachuca Canyon","HuTU","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",7
+"616","Huachuca Canyon","HuTU","Fall","2013","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",1
+"617","Huachuca Canyon","HuTU","Fall","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",5
+"618","Huachuca Canyon","HuTU","Fall","2013","Hydraenidae","Gymnochthebius",NA,"Gymnochthebius",1
+"619","Huachuca Canyon","HuTU","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",65
+"620","Huachuca Canyon","HuTU","Fall","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",1
+"621","Huachuca Canyon","HuTU","Fall","2013","Lestidae","Archilestes","grandis","Archilestes grandis",1
+"622","Huachuca Canyon","HuTU","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"623","Huachuca Canyon","HuTU","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",1077
+"624","Huachuca Canyon","HuTU","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",64
+"625","Huachuca Canyon","HuBR","Spring","2013","Belostomatidae","Abedus","herberti","Abedus herberti",3
+"626","Huachuca Canyon","HuBR","Spring","2013","Coenagrionidae","Argia",NA,"Argia",33
+"627","Huachuca Canyon","HuBR","Spring","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",68
+"628","Huachuca Canyon","HuBR","Spring","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",1
+"629","Huachuca Canyon","HuBR","Spring","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",1
+"630","Huachuca Canyon","HuBR","Spring","2013","Haliplidae","Peltodytes","dispersus","Peltodytes dispersus",2
+"631","Huachuca Canyon","HuBR","Spring","2013","Haliplidae","Peltodytes",NA,"Peltodytes",NA
+"632","Huachuca Canyon","HuBR","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",27
+"633","Huachuca Canyon","HuBR","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",1
+"634","Huachuca Canyon","HuBR","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",3
+"635","Huachuca Canyon","HuG","Spring","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",2
+"636","Huachuca Canyon","HuG","Spring","2013","Belostomatidae","Abedus","herberti","Abedus herberti",2
+"637","Huachuca Canyon","HuG","Spring","2013","Coenagrionidae","Argia",NA,"Argia",83
+"638","Huachuca Canyon","HuG","Spring","2013","Dryopidae","Helichus","suturalis","Helichus suturalis",1
+"639","Huachuca Canyon","HuG","Spring","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",4
+"640","Huachuca Canyon","HuG","Spring","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"641","Huachuca Canyon","HuG","Spring","2013","Dryopidae","Postelichus","confluentus","Postelichus confluentus",2
+"642","Huachuca Canyon","HuG","Spring","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",4.13953488372093
+"643","Huachuca Canyon","HuG","Spring","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",7
+"644","Huachuca Canyon","HuG","Spring","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",6.41860465116279
+"645","Huachuca Canyon","HuG","Spring","2013","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",1
+"646","Huachuca Canyon","HuG","Spring","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",100.162790697674
+"647","Huachuca Canyon","HuG","Spring","2013","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",2
+"648","Huachuca Canyon","HuG","Spring","2013","Dytiscidae","Uvarus",NA,"Uvarus",37.2790697674419
+"649","Huachuca Canyon","HuG","Spring","2013","Elmidae","Heterelmis",NA,"Heterelmis",9
+"650","Huachuca Canyon","HuG","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",3
+"651","Huachuca Canyon","HuG","Spring","2013","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",25
+"652","Huachuca Canyon","HuG","Spring","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",4
+"653","Huachuca Canyon","HuG","Spring","2013","Hebridae","Hebrus",NA,"Hebrus",1
+"654","Huachuca Canyon","HuG","Spring","2013","Helophoridae","Helophorus",NA,"Helophorus",2
+"655","Huachuca Canyon","HuG","Spring","2013","Hydraenidae","Hydraena",NA,"Hydraena",9
+"656","Huachuca Canyon","HuG","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",6
+"657","Huachuca Canyon","HuG","Spring","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",6
+"658","Huachuca Canyon","HuG","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",1091
+"659","Huachuca Canyon","HuG","Spring","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",61
+"660","Huachuca Canyon","HuNF","Spring","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",10
+"661","Huachuca Canyon","HuNF","Spring","2013","Coenagrionidae","Argia",NA,"Argia",23
+"662","Huachuca Canyon","HuNF","Spring","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",4
+"663","Huachuca Canyon","HuNF","Spring","2013","Dryopidae","Postelichus","confluentus","Postelichus confluentus",3
+"664","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",4.13793103448276
+"665","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",1.13793103448276
+"666","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Laccophilus","horni","Laccophilus horni",1
+"667","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",1.13793103448276
+"668","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Neoclypeodytes","fryi","Neoclypeodytes fryi",2.13793103448276
+"669","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",14.6551724137931
+"670","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",5.55172413793103
+"671","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",37.8965517241379
+"672","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",2.13793103448276
+"673","Huachuca Canyon","HuNF","Spring","2013","Dytiscidae","Uvarus",NA,"Uvarus",37.2068965517241
+"674","Huachuca Canyon","HuNF","Spring","2013","Elmidae","Heterelmis",NA,"Heterelmis",19
+"675","Huachuca Canyon","HuNF","Spring","2013","Hydraenidae","Hydraena",NA,"Hydraena",4
+"676","Huachuca Canyon","HuNF","Spring","2013","Hydrophilidae","Berosus","punctatissimus","Berosus punctatissimus",12
+"677","Huachuca Canyon","HuNF","Spring","2013","Hydrophilidae","Berosus","salvini","Berosus salvini",17
+"678","Huachuca Canyon","HuNF","Spring","2013","Hydrophilidae","Paracymus","ellipsis","Paracymus ellipsis",1
+"679","Huachuca Canyon","HuNF","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",3.33333333333333
+"680","Huachuca Canyon","HuNF","Spring","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",2.66666666666667
+"681","Huachuca Canyon","HuNF","Spring","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",15
+"682","Huachuca Canyon","HuNF","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",1
+"683","Huachuca Canyon","HuTL","Spring","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",10
+"684","Huachuca Canyon","HuTL","Spring","2013","Belostomatidae","Abedus","herberti","Abedus herberti",3
+"685","Huachuca Canyon","HuTL","Spring","2013","Calopterygidae","Hetaerina",NA,"Hetaerina",3
+"686","Huachuca Canyon","HuTL","Spring","2013","Coenagrionidae","Argia",NA,"Argia",64
+"687","Huachuca Canyon","HuTL","Spring","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",1
+"688","Huachuca Canyon","HuTL","Spring","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",2
+"689","Huachuca Canyon","HuTL","Spring","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"690","Huachuca Canyon","HuTL","Spring","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",9.66666666666667
+"691","Huachuca Canyon","HuTL","Spring","2013","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",1.33333333333333
+"692","Huachuca Canyon","HuTL","Spring","2013","Elmidae","Heterelmis",NA,"Heterelmis",3
+"693","Huachuca Canyon","HuTL","Spring","2013","Elmidae","Microcylloepus",NA,"Microcylloepus",6
+"694","Huachuca Canyon","HuTL","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",4
+"695","Huachuca Canyon","HuTL","Spring","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",1
+"696","Huachuca Canyon","HuTL","Spring","2013","Hebridae","Hebrus",NA,"Hebrus",1
+"697","Huachuca Canyon","HuTL","Spring","2013","Hydraenidae","Hydraena",NA,"Hydraena",4
+"698","Huachuca Canyon","HuTL","Spring","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",7
+"699","Huachuca Canyon","HuTL","Spring","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",3
+"700","Huachuca Canyon","HuTL","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",34
+"701","Huachuca Canyon","HuTL","Spring","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",36
+"702","Huachuca Canyon","HuTU","Spring","2013","Coenagrionidae","Argia",NA,"Argia",42
+"703","Huachuca Canyon","HuTU","Spring","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",19
+"704","Huachuca Canyon","HuTU","Spring","2013","Dryopidae","Helichus","suturalis","Helichus suturalis",3
+"705","Huachuca Canyon","HuTU","Spring","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",13
+"706","Huachuca Canyon","HuTU","Spring","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"707","Huachuca Canyon","HuTU","Spring","2013","Dryopidae","Postelichus","immsi","Postelichus immsi",1
+"708","Huachuca Canyon","HuTU","Spring","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",5
+"709","Huachuca Canyon","HuTU","Spring","2013","Dytiscidae","Laccophilus","pictus","Laccophilus pictus",1
+"710","Huachuca Canyon","HuTU","Spring","2013","Dytiscidae","Neoclypeodytes","fryi","Neoclypeodytes fryi",1
+"711","Huachuca Canyon","HuTU","Spring","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",7
+"712","Huachuca Canyon","HuTU","Spring","2013","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",1
+"713","Huachuca Canyon","HuTU","Spring","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",22
+"714","Huachuca Canyon","HuTU","Spring","2013","Dytiscidae","Uvarus",NA,"Uvarus",14
+"715","Huachuca Canyon","HuTU","Spring","2013","Elmidae","Heterelmis",NA,"Heterelmis",4
+"716","Huachuca Canyon","HuTU","Spring","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",1
+"717","Huachuca Canyon","HuTU","Spring","2013","Hebridae","Hebrus",NA,"Hebrus",1
+"718","Huachuca Canyon","HuTU","Spring","2013","Helophoridae","Helophorus",NA,"Helophorus",3
+"719","Huachuca Canyon","HuTU","Spring","2013","Hydraenidae","Hydraena",NA,"Hydraena",4
+"720","Huachuca Canyon","HuTU","Spring","2013","Hydrophilidae","Berosus","salvini","Berosus stylifer",1
+"721","Huachuca Canyon","HuTU","Spring","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",1
+"722","Huachuca Canyon","HuTU","Spring","2013","Hydrophilidae","Enochrus","hamiltoni","Enochrus hamiltoni",1
+"723","Huachuca Canyon","HuTU","Spring","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"724","Huachuca Canyon","HuTU","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",38
+"725","Huachuca Canyon","HuTU","Spring","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",9
+"726","Huachuca Canyon","HuBR","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",4
+"727","Huachuca Canyon","HuBR","Fall","2013","Coenagrionidae","Argia",NA,"Argia",6
+"728","Huachuca Canyon","HuBR","Fall","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",1
+"729","Huachuca Canyon","HuBR","Fall","2013","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",1
+"730","Huachuca Canyon","HuBR","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",2
+"731","Huachuca Canyon","HuBR","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",7
+"732","Huachuca Canyon","HuBR","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",1
+"733","Huachuca Canyon","HuBR","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"734","Huachuca Canyon","HuBR","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",27
+"735","Huachuca Canyon","HuG","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",1
+"736","Huachuca Canyon","HuG","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",6
+"737","Huachuca Canyon","HuG","Fall","2013","Coenagrionidae","Argia",NA,"Argia",170
+"738","Huachuca Canyon","HuG","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",2
+"739","Huachuca Canyon","HuG","Fall","2013","Dryopidae","Helichus","suturalis","Helichus suturalis",5
+"740","Huachuca Canyon","HuG","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",18
+"741","Huachuca Canyon","HuG","Fall","2013","Dryopidae","Postelichus","confluentus","Postelichus confluentus",9
+"742","Huachuca Canyon","HuG","Fall","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",1
+"743","Huachuca Canyon","HuG","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",4
+"744","Huachuca Canyon","HuG","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",9
+"745","Huachuca Canyon","HuG","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",7
+"746","Huachuca Canyon","HuG","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",8
+"747","Huachuca Canyon","HuG","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",3
+"748","Huachuca Canyon","HuG","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",16
+"749","Huachuca Canyon","HuG","Fall","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"750","Huachuca Canyon","HuG","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",157
+"751","Huachuca Canyon","HuG","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",9
+"752","Huachuca Canyon","HuNF","Fall","2013","Coenagrionidae","Argia",NA,"Argia",4
+"753","Huachuca Canyon","HuNF","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",2
+"754","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",8
+"755","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Laccophilus","horni","Laccophilus horni",2
+"756","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",1.125
+"757","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Laccophilus","salvini","Laccophilus salvini",1.125
+"758","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",3.25
+"759","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",11.275
+"760","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Stictotarsus","corvinus","Stictotarsus corvinus",2.9
+"761","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",1.125
+"762","Huachuca Canyon","HuNF","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",25.2
+"763","Huachuca Canyon","HuNF","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",7
+"764","Huachuca Canyon","HuNF","Fall","2013","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",14
+"765","Huachuca Canyon","HuNF","Fall","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",3
+"766","Huachuca Canyon","HuNF","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",1
+"767","Huachuca Canyon","HuNF","Fall","2013","Hydrophilidae","Berosus","punctatissimus","Berosus punctatissimus",3
+"768","Huachuca Canyon","HuNF","Fall","2013","Hydrophilidae","Berosus","salvini","Berosus salvini",3
+"769","Huachuca Canyon","HuNF","Fall","2013","Lestidae","Archilestes","grandis","Archilestes grandis",10
+"770","Huachuca Canyon","HuNF","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",2
+"771","Huachuca Canyon","HuNF","Fall","2013","Notonectidae","Buenoa","arizonis","Buenoa arizonis",1
+"772","Huachuca Canyon","HuNF","Fall","2013","Notonectidae","Notonecta","lobata","Notonecta lobata",4
+"773","Huachuca Canyon","HuNF","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",55
+"774","Huachuca Canyon","HuTL","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",9
+"775","Huachuca Canyon","HuTL","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",5
+"776","Huachuca Canyon","HuTL","Fall","2013","Coenagrionidae","Argia",NA,"Argia",101
+"777","Huachuca Canyon","HuTL","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",3
+"778","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Helichus","suturalis","Helichus suturalis",9
+"779","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",12
+"780","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"781","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Postelichus","confluentus","Postelichus confluentus",4
+"782","Huachuca Canyon","HuTL","Fall","2013","Dryopidae","Postelichus",NA,"Postelichus",NA
+"783","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",2.11764705882353
+"784","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",1.5
+"785","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Laccophilus","oscillator","Laccophilus oscillator",2.11764705882353
+"786","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Neoclypeodytes","fryi","Neoclypeodytes fryi",3.17647058823529
+"787","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",2
+"788","Huachuca Canyon","HuTL","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",13.0882352941176
+"789","Huachuca Canyon","HuTL","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",33
+"790","Huachuca Canyon","HuTL","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",6
+"791","Huachuca Canyon","HuTL","Fall","2013","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",2
+"792","Huachuca Canyon","HuTL","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",3
+"793","Huachuca Canyon","HuTL","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"794","Huachuca Canyon","HuTL","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",68
+"795","Huachuca Canyon","HuTL","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",207
+"796","Huachuca Canyon","HuTU","Fall","2013","Aeschnidae","Oplonaeschna","armata","Oplonaeschna armata",1
+"797","Huachuca Canyon","HuTU","Fall","2013","Belostomatidae","Abedus","herberti","Abedus herberti",5
+"798","Huachuca Canyon","HuTU","Fall","2013","Coenagrionidae","Argia",NA,"Argia",212
+"799","Huachuca Canyon","HuTU","Fall","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",2
+"800","Huachuca Canyon","HuTU","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",5
+"801","Huachuca Canyon","HuTU","Fall","2013","Dryopidae","Helichus","suturalis","Helichus suturalis",5
+"802","Huachuca Canyon","HuTU","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",38
+"803","Huachuca Canyon","HuTU","Fall","2013","Dryopidae","Helichus",NA,"Helichus",NA
+"804","Huachuca Canyon","HuTU","Fall","2013","Dryopidae","Postelichus",NA,"Postelichus",NA
+"805","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Desmopachria","portmanni","Desmopachria portmanni",3
+"806","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Laccophilus","pictus","Laccophilus pictus",1
+"807","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Neoclypeodytes","fryi","Neoclypeodytes fryi",1
+"808","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"809","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",1
+"810","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Stictotarsus","aequinoctialis","Stictotarsus aequinoctialis",2
+"811","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",1
+"812","Huachuca Canyon","HuTU","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",45
+"813","Huachuca Canyon","HuTU","Fall","2013","Elmidae","Heterelmis",NA,"Heterelmis",7
+"814","Huachuca Canyon","HuTU","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",7
+"815","Huachuca Canyon","HuTU","Fall","2013","Gyrinidae","Dineutus","sublineatus","Dineutus sublineatus",1
+"816","Huachuca Canyon","HuTU","Fall","2013","Gyrinidae","Gyrinus","plicifer","Gyrinus plicifer",5
+"817","Huachuca Canyon","HuTU","Fall","2013","Hydraenidae","Gymnochthebius",NA,"Gymnochthebius",1
+"818","Huachuca Canyon","HuTU","Fall","2013","Hydraenidae","Hydraena",NA,"Hydraena",65
+"819","Huachuca Canyon","HuTU","Fall","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",1
+"820","Huachuca Canyon","HuTU","Fall","2013","Lestidae","Archilestes","grandis","Archilestes grandis",1
+"821","Huachuca Canyon","HuTU","Fall","2013","Nepidae","Ranatra","quadridentata","Ranatra quadridentata",1
+"822","Huachuca Canyon","HuTU","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",1077
+"823","Huachuca Canyon","HuTU","Fall","2013","Veliidae","Rhagovelia",NA,"Rhagovelia",64
+"824","Water Canyon","WAT_BR","Spring","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",6
+"825","Water Canyon","WAT_BR","Spring","2012","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",1
+"826","Water Canyon","WAT_MAIN_CON","Spring","2012","Dytiscidae","Agabinus","glabrellus","Agabinus glabrellus",2
+"827","Water Canyon","WAT_MAIN_CON","Spring","2012","Dytiscidae","Agabus","perplexus","Agabus perplexus",2
+"828","Water Canyon","WAT_MAIN_CON","Spring","2012","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",2
+"829","Water Canyon","WAT_MAM","Spring","2012","Coenagrionidae","Argia",NA,"Argia",2
+"830","Water Canyon","WAT_MAM","Spring","2012","Dytiscidae","Agabinus","glabrellus","Agabinus glabrellus",2.54545454545455
+"831","Water Canyon","WAT_MAM","Spring","2012","Dytiscidae","Agabus","lutosus","Agabus lutosus",2.54545454545455
+"832","Water Canyon","WAT_MAM","Spring","2012","Dytiscidae","Agabus","perplexus","Agabus perplexus",7.63636363636364
+"833","Water Canyon","WAT_MAM","Spring","2012","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",1.27272727272727
+"834","Water Canyon","WAT_SFBN","Spring","2012","Coenagrionidae","Argia",NA,"Argia",16
+"835","Water Canyon","WAT_SFBN","Spring","2012","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",1
+"836","Water Canyon","WAT_SFBN","Spring","2012","Dytiscidae","Agabinus","glabrellus","Agabinus glabrellus",2
+"837","Water Canyon","WAT_SFBP","Spring","2012","Coenagrionidae","Argia",NA,"Argia",1
+"838","Water Canyon","WAT_SFBP","Spring","2012","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",1
+"839","Water Canyon","WAT_SFBP","Spring","2012","Dytiscidae","Agabinus","glabrellus","Agabinus glabrellus",1.83333333333333
+"840","Water Canyon","WAT_SFBP","Spring","2012","Dytiscidae","Agabus","lutosus","Agabus lutosus",5.5
+"841","Water Canyon","WAT_SFBP","Spring","2012","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",1.83333333333333
+"842","Water Canyon","WAT_SFBP","Spring","2012","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",1.83333333333333
+"843","Water Canyon","WAT_SFBP","Spring","2012","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"844","Water Canyon","WAT_BFS1","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",10
+"845","Water Canyon","WAT_BFS2","Fall","2012","Coenagrionidae","Argia",NA,"Argia",180
+"846","Water Canyon","WAT_BFS2","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",1
+"847","Water Canyon","WAT_BFS2","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",18
+"848","Water Canyon","WAT_BR","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",32
+"849","Water Canyon","WAT_LM","Fall","2012","Coenagrionidae","Argia",NA,"Argia",15
+"850","Water Canyon","WAT_LM","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",6
+"851","Water Canyon","WAT_LM","Fall","2012","Hydraenidae","Ochthebius",NA,"Ochthebius",1
+"852","Water Canyon","WAT_LM","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",2
+"853","Water Canyon","WAT_MAM","Fall","2012","Coenagrionidae","Argia",NA,"Argia",29
+"854","Water Canyon","WAT_MAM","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",82
+"855","Water Canyon","WAT_SFAC","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",1
+"856","Water Canyon","WAT_SFBN","Fall","2012","Coenagrionidae","Argia",NA,"Argia",29
+"857","Water Canyon","WAT_SFBN","Fall","2012","Dytiscidae","Agabinus","glabrellus","Agabinus glabrellus",1
+"858","Water Canyon","WAT_SFBN","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",1
+"859","Water Canyon","WAT_SFBP","Fall","2012","Coenagrionidae","Argia",NA,"Argia",5
+"860","Water Canyon","WAT_SFBP","Fall","2012","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",2.6
+"861","Water Canyon","WAT_SFBP","Fall","2012","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",12.8
+"862","Water Canyon","WAT_SFBP","Fall","2012","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",2.6
+"863","Water Canyon","WAT_SFBP","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",4
+"864","Water Canyon","WAT_BR","Spring","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",22
+"865","Water Canyon","WAT_LM","Spring","2013","Coenagrionidae","Argia",NA,"Argia",4
+"866","Water Canyon","WAT_LM","Spring","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",5
+"867","Water Canyon","WAT_LM","Spring","2013","Hydraenidae","Ochthebius",NA,"Ochthebius",3
+"868","Water Canyon","WAT_MAIN_CON","Spring","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",2
+"869","Water Canyon","WAT_MAM","Spring","2013","Coenagrionidae","Argia",NA,"Argia",16
+"870","Water Canyon","WAT_MAM","Spring","2013","Dytiscidae","Agabus",NA,"Agabus",6
+"871","Water Canyon","WAT_MAM","Spring","2013","Dytiscidae","Laccophilus","maculosus","Laccophilus maculosus",39
+"872","Water Canyon","WAT_MAM","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",2
+"873","Water Canyon","WAT_MAM","Spring","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",3
+"874","Water Canyon","WAT_SFAC","Spring","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",3
+"875","Water Canyon","WAT_SFBN","Spring","2013","Coenagrionidae","Argia",NA,"Argia",19
+"876","Water Canyon","WAT_SFBP","Spring","2013","Coenagrionidae","Argia",NA,"Argia",3
+"877","Water Canyon","WAT_SFBP","Spring","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",5
+"878","Water Canyon","WAT_SFBP","Spring","2013","Dytiscidae","Stictotarsus","striatellus","Stictotarsus striatellus",14
+"879","Water Canyon","WAT_SFBP","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"880","Water Canyon","WAT_BR","Fall","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",2
+"881","Water Canyon","WAT_LM","Fall","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",2
+"882","Water Canyon","WAT_MAM","Fall","2013","Coenagrionidae","Argia",NA,"Argia",15
+"883","Water Canyon","WAT_MAM","Fall","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",1
+"884","Water Canyon","WAT_SFBN","Fall","2013","Coenagrionidae","Argia",NA,"Argia",181
+"885","Water Canyon","WAT_SFBN","Fall","2013","Cordulegastridae","Cordulegaster","diadema","Cordulegaster diadema",1
+"886","Water Canyon","WAT_SFBP","Fall","2013","Coenagrionidae","Argia",NA,"Argia",35
+"887","Water Canyon","WAT_SFBP","Fall","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",2
+"888","Water Canyon","WAT_SFBP","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",4
+"889","San Andres Canyon","SAN_SASL","Fall","2012","Aeschnidae","Aeschna",NA,"Aeshna",1
+"890","San Andres Canyon","SAN_SASL","Fall","2012","Aeschnidae","Anax","longipes","Anax longipes",2
+"891","San Andres Canyon","SAN_SASL","Fall","2012","Coenagrionidae","Argia",NA,"Argia",675
+"892","San Andres Canyon","SAN_SASL","Fall","2012","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",10
+"893","San Andres Canyon","SAN_SASL","Fall","2012","Dryopidae","Helichus","triangularis","Helichus triangularis",10
+"894","San Andres Canyon","SAN_SASL","Fall","2012","Dryopidae","Postelichus","immsi","Postelichus immsi",2
+"895","San Andres Canyon","SAN_SASL","Fall","2012","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",3
+"896","San Andres Canyon","SAN_SASL","Fall","2012","Dytiscidae","Platambus","semivittatus","Platambus semivittatus",4
+"897","San Andres Canyon","SAN_SASL","Fall","2012","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",16
+"898","San Andres Canyon","SAN_SASL","Fall","2012","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",1
+"899","San Andres Canyon","SAN_SASL","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"900","San Andres Canyon","SAN_SASL","Fall","2012","Haliplidae","Peltodytes",NA,"Peltodytes dispersus",5
+"901","San Andres Canyon","SAN_SASL","Fall","2012","Libellulidae","Libellula",NA,"Libellula",35
+"902","San Andres Canyon","SAN_SASL","Fall","2012","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"903","San Andres Canyon","SAN_SASL","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",3
+"904","San Andres Canyon","SAN_SASU","Fall","2012","Coenagrionidae","Argia",NA,"Argia",1005
+"905","San Andres Canyon","SAN_SASU","Fall","2012","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",1
+"906","San Andres Canyon","SAN_SASU","Fall","2012","Dryopidae","Helichus","triangularis","Helichus triangularis",1
+"907","San Andres Canyon","SAN_SASU","Fall","2012","Dryopidae","Postelichus","confluentus","Postelichus confluentus",1
+"908","San Andres Canyon","SAN_SASU","Fall","2012","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",1
+"909","San Andres Canyon","SAN_SASU","Fall","2012","Dytiscidae","Laccophilus","maculosus","Laccophilus maculosus",1
+"910","San Andres Canyon","SAN_SASU","Fall","2012","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",4
+"911","San Andres Canyon","SAN_SASU","Fall","2012","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",1
+"912","San Andres Canyon","SAN_SASU","Fall","2012","Dytiscidae","Rhantus","gutticollis mexicanus","Rhantus gutticollis mexicanus",1
+"913","San Andres Canyon","SAN_SASU","Fall","2012","Gerridae","Aquarius","remigis","Aquarius remigis",4
+"914","San Andres Canyon","SAN_SASU","Fall","2012","Haliplidae","Peltodytes","dispersus","Peltodytes dispersus",1
+"915","San Andres Canyon","SAN_SASU","Fall","2012","Haliplidae","Peltodytes",NA,"Peltodytes dispersus",9
+"916","San Andres Canyon","SAN_SASU","Fall","2012","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",1
+"917","San Andres Canyon","SAN_SASU","Fall","2012","Libellulidae","Libellula",NA,"Libellula",66
+"918","San Andres Canyon","SAN_SASU","Fall","2012","Veliidae","Microvelia",NA,"Microvelia",11
+"919","San Andres Canyon","SAN_SASL","Spring","2013","Aeschnidae","Aeschna","multicolor","Rhionaeschna multicolor",1
+"920","San Andres Canyon","SAN_SASL","Spring","2013","Coenagrionidae","Argia",NA,"Argia",244
+"921","San Andres Canyon","SAN_SASL","Spring","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",4
+"922","San Andres Canyon","SAN_SASL","Spring","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",2
+"923","San Andres Canyon","SAN_SASL","Spring","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",11
+"924","San Andres Canyon","SAN_SASL","Spring","2013","Haliplidae","Peltodytes",NA,"Peltodytes dispersus",22
+"925","San Andres Canyon","SAN_SASL","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",1
+"926","San Andres Canyon","SAN_SASL","Spring","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"927","San Andres Canyon","SAN_SASL","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",6
+"928","San Andres Canyon","SAN_SASU","Spring","2013","Coenagrionidae","Argia",NA,"Argia",260
+"929","San Andres Canyon","SAN_SASU","Spring","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",15
+"930","San Andres Canyon","SAN_SASU","Spring","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",1
+"931","San Andres Canyon","SAN_SASU","Spring","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"932","San Andres Canyon","SAN_SASU","Spring","2013","Dytiscidae","Rhantus","gutticollis gutticollis","Rhantus gutticollis gutticollis",1
+"933","San Andres Canyon","SAN_SASU","Spring","2013","Gerridae","Aquarius","remigis","Aquarius remigis",3
+"934","San Andres Canyon","SAN_SASU","Spring","2013","Haliplidae","Peltodytes","dispersus","Peltodytes dispersus",6
+"935","San Andres Canyon","SAN_SASU","Spring","2013","Haliplidae","Peltodytes",NA,"Peltodytes dispersus",155
+"936","San Andres Canyon","SAN_SASU","Spring","2013","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",7
+"937","San Andres Canyon","SAN_SASU","Spring","2013","Lestidae","Archilestes","grandis","Archilestes grandis",64
+"938","San Andres Canyon","SAN_SASU","Spring","2013","Libellulidae","Libellula","saturata","Libellula saturata",15
+"939","San Andres Canyon","SAN_SASU","Spring","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",7
+"940","San Andres Canyon","SAN_SASU","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",15
+"941","San Andres Canyon","SAN_UU","Spring","2013","Coenagrionidae","Argia",NA,"Argia",61
+"942","San Andres Canyon","SAN_UU","Spring","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",2
+"943","San Andres Canyon","SAN_UU","Spring","2013","Hydrophilidae","Laccobius",NA,"Laccobius",41
+"944","San Andres Canyon","SAN_UU","Spring","2013","Veliidae","Microvelia",NA,"Microvelia",33
+"945","San Andres Canyon","SAN_INT","Fall","2013","Coenagrionidae","Argia",NA,"Argia",7
+"946","San Andres Canyon","SAN_MID","Fall","2013","Coenagrionidae","Argia",NA,"Argia",178
+"947","San Andres Canyon","SAN_MID","Fall","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",8
+"948","San Andres Canyon","SAN_MID","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",2
+"949","San Andres Canyon","SAN_MID","Fall","2013","Dytiscidae","Agabus","semivittatus","Agabus semivittatus",11.9047619047619
+"950","San Andres Canyon","SAN_MID","Fall","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",1.19047619047619
+"951","San Andres Canyon","SAN_MID","Fall","2013","Dytiscidae","Sanfilippodytes","villis","Sanfilippodytes villis",11.9047619047619
+"952","San Andres Canyon","SAN_MID","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",6
+"953","San Andres Canyon","SAN_MID","Fall","2013","Haliplidae","Peltodytes","dispersus","Peltodytes dispersus",1
+"954","San Andres Canyon","SAN_MID","Fall","2013","Haliplidae","Peltodytes",NA,"Peltodytes dispersus",1
+"955","San Andres Canyon","SAN_MID","Fall","2013","Hydrophilidae","Cymbiodyta",NA,"Cymbiodyta",1
+"956","San Andres Canyon","SAN_MID","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",7
+"957","San Andres Canyon","SAN_MID","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",39
+"958","San Andres Canyon","SAN_SASL","Fall","2013","Coenagrionidae","Argia",NA,"Argia",1836
+"959","San Andres Canyon","SAN_SASL","Fall","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",48
+"960","San Andres Canyon","SAN_SASL","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",21
+"961","San Andres Canyon","SAN_SASL","Fall","2013","Dytiscidae","Agabus","semivittatus","Agabus semivittatus",4.28571428571429
+"962","San Andres Canyon","SAN_SASL","Fall","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",17.4642857142857
+"963","San Andres Canyon","SAN_SASL","Fall","2013","Dytiscidae","Rhantus","atricolor","Rhantus atricolor",1
+"964","San Andres Canyon","SAN_SASL","Fall","2013","Dytiscidae","Sanfilippodytes",NA,"Sanfilippodytes",3.25
+"965","San Andres Canyon","SAN_SASL","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",1
+"966","San Andres Canyon","SAN_SASL","Fall","2013","Helophoridae","Helophorus",NA,"Helophorus",1
+"967","San Andres Canyon","SAN_SASL","Fall","2013","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",3
+"968","San Andres Canyon","SAN_SASL","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",111
+"969","San Andres Canyon","SAN_SASL","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",64
+"970","San Andres Canyon","SAN_SASU","Fall","2013","Coenagrionidae","Argia",NA,"Argia",2179
+"971","San Andres Canyon","SAN_SASU","Fall","2013","Coenagrionidae","Coenagrion / Enallagma",NA,"Enallagma",114
+"972","San Andres Canyon","SAN_SASU","Fall","2013","Dryopidae","Helichus","triangularis","Helichus triangularis",5
+"973","San Andres Canyon","SAN_SASU","Fall","2013","Dryopidae","Postelichus","confluentus","Postelichus confluentus",1
+"974","San Andres Canyon","SAN_SASU","Fall","2013","Dryopidae","Postelichus","immsi","Postelichus immsi",3
+"975","San Andres Canyon","SAN_SASU","Fall","2013","Dytiscidae","Agabus","semivittatus","Agabus semivittatus",5.5
+"976","San Andres Canyon","SAN_SASU","Fall","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",3.5
+"977","San Andres Canyon","SAN_SASU","Fall","2013","Dytiscidae","Thermonectus","nigrofasciatus","Thermonectus nigrofasciatus",1.5
+"978","San Andres Canyon","SAN_SASU","Fall","2013","Dytiscidae","Uvarus",NA,"Uvarus",2.5
+"979","San Andres Canyon","SAN_SASU","Fall","2013","Gerridae","Aquarius","remigis","Aquarius remigis",28
+"980","San Andres Canyon","SAN_SASU","Fall","2013","Haliplidae","Peltodytes","dispersus","Peltodytes dispersus",9
+"981","San Andres Canyon","SAN_SASU","Fall","2013","Haliplidae","Peltodytes",NA,"Peltodytes dispersus",20
+"982","San Andres Canyon","SAN_SASU","Fall","2013","Hebridae","Hebrus",NA,"Hebrus",3
+"983","San Andres Canyon","SAN_SASU","Fall","2013","Hydrophilidae","Anacaena","signaticollis","Anacaena",1
+"984","San Andres Canyon","SAN_SASU","Fall","2013","Hydrophilidae","Tropisternus","affinis","Tropisternus affinis",12
+"985","San Andres Canyon","SAN_SASU","Fall","2013","Lestidae","Archilestes","grandis","Archilestes grandis",28
+"986","San Andres Canyon","SAN_SASU","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",151
+"987","San Andres Canyon","SAN_SASU","Fall","2013","Libellulidae","Paltothemis","lineatipes","Paltothemis lineatipes",1
+"988","San Andres Canyon","SAN_SASU","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",303
+"989","San Andres Canyon","SAN_UU","Fall","2013","Coenagrionidae","Argia",NA,"Argia",59
+"990","San Andres Canyon","SAN_UU","Fall","2013","Dytiscidae","Laccophilus","fasciatus","Laccophilus fasciatus",3
+"991","San Andres Canyon","SAN_UU","Fall","2013","Hydrophilidae","Enochrus","pygmaeus pygmaeus","Enochrus pygmaeus pygmaeus",7
+"992","San Andres Canyon","SAN_UU","Fall","2013","Hydrophilidae","Laccobius",NA,"Laccobius",7
+"993","San Andres Canyon","SAN_UU","Fall","2013","Hydroscaphidae","Hydroscapha","natans","Hydroscapha natans",3
+"994","San Andres Canyon","SAN_UU","Fall","2013","Libellulidae","Libellula","saturata","Libellula saturata",18
+"995","San Andres Canyon","SAN_UU","Fall","2013","Veliidae","Microvelia",NA,"Microvelia",149
