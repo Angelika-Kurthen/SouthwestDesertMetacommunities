@@ -4,9 +4,9 @@
 # First load the vegan package
 library(vegan)
 library(plyr)
-library(tidytable)
 library(dplyr)
 library(readxl)
+library(tidytable)
 library(stringr)
 library(ggplot2)
 library(RColorBrewer)
